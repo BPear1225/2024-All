@@ -74,12 +74,14 @@
 		<file name="feats-fighting-styles.xml" url="https://github.com/BPear1225/2024-All/raw/refs/heads/main/core/players-handbook-2024/feats/feats-fighting-styles.xml" />
 		<file name="feats-general.xml" url="https://github.com/BPear1225/2024-All/raw/refs/heads/main/core/players-handbook-2024/feats/feats-general.xml" />
 		<file name="feats-origin.xml" url="https://github.com/BPear1225/2024-All/raw/refs/heads/main/core/players-handbook-2024/feats/feats-origin.xml" />
-		<file name="alignments.xml" url="https://github.com/BPear1225/2024-All/raw/refs/heads/main/core/players-handbook-2024/misc/alignments.xml" />
-		<file name="expertise-skills.xml" url="https://github.com/BPear1225/2024-All/raw/refs/heads/main/core/players-handbook-2024/misc/expertise-skills.xml" />
-		<file name="languages.xml" url="https://github.com/BPear1225/2024-All/raw/refs/heads/main/core/players-handbook-2024/misc/languages.xml" />
-		<file name="proficiencies-all.xml" url="https://github.com/BPear1225/2024-All/raw/refs/heads/main/core/players-handbook-2024/misc/proficiencies-all.xml" />
-		<file name="properties-weapons.xml" url="https://github.com/BPear1225/2024-All/raw/refs/heads/main/core/players-handbook-2024/misc/properties-weapons.xml" />
-		<file name="weapon-mastery-properties.xml" url="https://github.com/BPear1225/2024-All/raw/refs/heads/main/core/players-handbook-2024/misc/weapon-mastery-properties.xml" />
+		<file name="alignments.xml" url="https://github.com/BPear1225/2024-All/raw/refs/heads/main/core/players-handbook-2024/core/misc/alignments.xml" />
+		<file name="expertise-skills.xml" url="https://github.com/BPear1225/2024-All/raw/refs/heads/main/core/players-handbook-2024/core/misc/expertise-skills.xml" />
+		<file name="languages.xml" url="https://github.com/BPear1225/2024-All/raw/refs/heads/main/core/players-handbook-2024/core/misc/languages.xml" />
+		<file name="proficiencies-all.xml" url="https://github.com/BPear1225/2024-All/raw/refs/heads/main/core/players-handbook-2024/core/misc/proficiencies-all.xml" />
+		<file name="properties-weapons.xml" url="https://github.com/BPear1225/2024-All/raw/refs/heads/main/core/players-handbook-2024/core/misc/properties-weapons.xml" />
+		<file name="weapon-mastery-properties.xml" url="https://github.com/BPear1225/2024-All/raw/refs/heads/main/core/players-handbook-2024/core/misc/weapon-mastery-properties.xml" />
+		<file name="spells.xml" url="https://github.com/BPear1225/2024-All/raw/refs/heads/main/core/players-handbook-2024/core/spells.xml" />
+
 
 
 	</files>
