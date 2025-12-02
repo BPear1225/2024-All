@@ -20,6 +20,8 @@
 		<file name="class-rogue.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/core/players-handbook-2024/classes/class-rogue.xml" />
 		<file name="class-sorcerer.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/core/players-handbook-2024/classes/class-sorcerer.xml" />
 		<file name="class-warlock.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/core/players-handbook-2024/classes/class-warlock.xml" />
+		<file name="class-paladin.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/core/players-handbook-2024/classes/class-paladin.xml" />
+		<file name="class-ranger.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/core/players-handbook-2024/classes/class-ranger.xml" />
 
 		<!-- archetypes -->
 		<file name="barbarian-berserker.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/core/players-handbook-2024/archetypes/barbarian-berserker.xml" />
@@ -46,6 +48,14 @@
 		<file name="warlock-celestial.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/core/players-handbook-2024/archetypes/warlock-celestial.xml" />
 		<file name="warlock-fiend.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/core/players-handbook-2024/archetypes/warlock-fiend.xml" />
 		<file name="warlock-great-old-one.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/core/players-handbook-2024/archetypes/warlock-great-old-one.xml" />
+		<file name="paladin-ancients" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/core/players-handbook-2024/archetypes/paladin-ancients.xml " />
+		<file name="paladin-devotion" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/core/players-handbook-2024/archetypes/paladin-devotion.xml " />
+		<file name="paladin-glory" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/core/players-handbook-2024/archetypes/paladin-glory.xml " />
+		<file name="paladin-vengeance" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/core/players-handbook-2024/archetypes/paladin-vengeance.xml " />
+		<file name="ranger-beast-master" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/core/players-handbook-2024/archetypes/ranger-beast-master.xml " />
+		<file name="ranger-fey-wanderer" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/core/players-handbook-2024/archetypes/ranger-fey-wanderer.xml " />
+		<file name="ranger-gloom-stalker" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/core/players-handbook-2024/archetypes/ranger-gloom-stalker.xml " />
+		<file name="ranger-hunter" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/core/players-handbook-2024/archetypes/ranger-hunter.xml " />
 
 		<!-- backgrounds -->
 
