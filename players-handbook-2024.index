@@ -80,6 +80,7 @@
 		<file name="proficiencies-all.xml" url="https://github.com/BPear1225/2024-All/raw/refs/heads/main/core/players-handbook-2024/misc/proficiencies-all.xml" />
 		<file name="properties-weapons.xml" url="https://github.com/BPear1225/2024-All/raw/refs/heads/main/core/players-handbook-2024/misc/properties-weapons.xml" />
 		<file name="weapon-mastery-properties.xml" url="https://github.com/BPear1225/2024-All/raw/refs/heads/main/core/players-handbook-2024/misc/weapon-mastery-properties.xml" />
+		<file name="spells.xml" url="https://github.com/BPear1225/2024-All/raw/refs/heads/main/core/players-handbook-2024/spells/spells.xml" />
 
 
 	</files>
