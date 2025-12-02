@@ -46,9 +46,16 @@
 		<file name="warlock-celestial.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/core/players-handbook-2024/archetypes/warlock-celestial.xml" />
 		<file name="warlock-fiend.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/core/players-handbook-2024/archetypes/warlock-fiend.xml" />
 		<file name="warlock-great-old-one.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/core/players-handbook-2024/archetypes/warlock-great-old-one.xml" />
+
 		<!-- backgrounds -->
 
 		<!-- items -->
+		<file name="items-armor.xml" url="https://github.com/BPear1225/2024-All/raw/refs/heads/main/core/players-handbook-2024/items/items-armor.xml" />
+		<file name="items-gear.xml" url="https://github.com/BPear1225/2024-All/raw/refs/heads/main/core/players-handbook-2024/items/items-gear.xml" />
+		<file name="items-instrument.xml" url="https://github.com/BPear1225/2024-All/raw/refs/heads/main/core/players-handbook-2024/items/items-instrument.xml" />
+		<file name="items-packs.xml" url="https://github.com/BPear1225/2024-All/raw/refs/heads/main/core/players-handbook-2024/items/items-packs.xml" />
+		<file name="items-tools.xml" url="https://github.com/BPear1225/2024-All/raw/refs/heads/main/core/players-handbook-2024/items/items-tools.xml" />
+		<file name="items-weapons.xml" url="https://github.com/BPear1225/2024-All/raw/refs/heads/main/core/players-handbook-2024/items/items-weapons.xml" />
 
 		<!-- misc -->
 		<file name="companions.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/core/players-handbook-2024/companions.xml" />
@@ -57,6 +64,13 @@
 		<file name="feats-fighting-styles.xml" url="https://github.com/BPear1225/2024-All/raw/refs/heads/main/core/players-handbook-2024/feats/feats-fighting-styles.xml" />
 		<file name="feats-general.xml" url="https://github.com/BPear1225/2024-All/raw/refs/heads/main/core/players-handbook-2024/feats/feats-general.xml" />
 		<file name="feats-origin.xml" url="https://github.com/BPear1225/2024-All/raw/refs/heads/main/core/players-handbook-2024/feats/feats-origin.xml" />
+		<file name="alignments.xml" url="https://github.com/BPear1225/2024-All/raw/refs/heads/main/core/players-handbook-2024/misc/alignments.xml" />
+		<file name="expertise-skills.xml" url="https://github.com/BPear1225/2024-All/raw/refs/heads/main/core/players-handbook-2024/misc/expertise-skills.xml" />
+		<file name="languages.xml" url="https://github.com/BPear1225/2024-All/raw/refs/heads/main/core/players-handbook-2024/misc/languages.xml" />
+		<file name="proficiencies-all.xml" url="https://github.com/BPear1225/2024-All/raw/refs/heads/main/core/players-handbook-2024/misc/proficiencies-all.xml" />
+		<file name="properties-weapons.xml" url="https://github.com/BPear1225/2024-All/raw/refs/heads/main/core/players-handbook-2024/misc/properties-weapons.xml" />
+		<file name="weapon-mastery-properties.xml" url="https://github.com/BPear1225/2024-All/raw/refs/heads/main/core/players-handbook-2024/misc/weapon-mastery-properties.xml" />
+
 
 	</files>
 </index>
