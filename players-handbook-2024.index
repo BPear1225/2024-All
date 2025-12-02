@@ -5,7 +5,7 @@
 		<description></description>
 		<author url="">Wizards of the Coast</author>
 		<update version="0.0.1">
-			<file name="players-handbook-2024.index" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/players-handbook-2024.index" />
+			<file name="players-handbook-2024.index" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/core/players-handbook-2024.index" />
 		</update>
 	</info>
 	<files>
