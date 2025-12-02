@@ -53,6 +53,10 @@
 		<!-- misc -->
 		<file name="companions.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/core/players-handbook-2024/companions.xml" />
 		<file name="eldritch-invocations.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/core/players-handbook-2024/classes/eldritch-invocations.xml" />
+		<file name="feats-epic-boons.xml" url="https://github.com/BPear1225/2024-All/raw/refs/heads/main/core/players-handbook-2024/feats/feats-epic-boons.xml" />
+		<file name="feats-fighting-styles.xml" url="https://github.com/BPear1225/2024-All/raw/refs/heads/main/core/players-handbook-2024/feats/feats-fighting-styles.xml" />
+		<file name="feats-general.xml" url="https://github.com/BPear1225/2024-All/raw/refs/heads/main/core/players-handbook-2024/feats/feats-general.xml" />
+		<file name="feats-origin.xml" url="https://github.com/BPear1225/2024-All/raw/refs/heads/main/core/players-handbook-2024/feats/feats-origin.xml" />
 
 	</files>
 </index>
