@@ -9,7 +9,7 @@
 		</update>
 	</info>
 	<files>
-		<file name="source.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/players-handbook-2024/source.xml" />
+		<file name="source.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/core/players-handbook-2024/source.xml" />
 
 		<!-- races -->
 
