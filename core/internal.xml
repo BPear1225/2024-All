@@ -4,7 +4,7 @@
 		<name>Internal</name>
 		<description>Elements that should've been part of the app itself</description>
 		<update version="0.1.6">
-			<file name="internal.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/internal.xml" />
+			<file name="internal.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/core/internal.xml" />
 		</update>
 	</info>
 
@@ -12,7 +12,9 @@
 	<element name="Additional Ability Score Diminishment, Strength" type="Item" source="Internal" id="ID_INTERNAL_ITEM_ASI_STRENGTH_DECREASE_1">
 		<compendium display="false" />
 		<description>
-			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p>
+				<i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i>
+			</p>
 			<div class="reference">
 				<div element="ID_INTERNAL_INFORMATION_ASI_STRENGTH_DECREASE_1" />
 			</div>
@@ -30,7 +32,9 @@
 	<element name="Additional Ability Score Diminishment, Dexterity" type="Item" source="Internal" id="ID_INTERNAL_ITEM_ASI_DEXTERITY_DECREASE_1">
 		<compendium display="false" />
 		<description>
-			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p>
+				<i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i>
+			</p>
 			<div class="reference">
 				<div element="ID_INTERNAL_INFORMATION_ASI_DEXTERITY_DECREASE_1" />
 			</div>
@@ -48,7 +52,9 @@
 	<element name="Additional Ability Score Diminishment, Constitution" type="Item" source="Internal" id="ID_INTERNAL_ITEM_ASI_CONSTITUTION_DECREASE_1">
 		<compendium display="false" />
 		<description>
-			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p>
+				<i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i>
+			</p>
 			<div class="reference">
 				<div element="ID_INTERNAL_INFORMATION_ASI_CONSTITUTION_DECREASE_1" />
 			</div>
@@ -66,7 +72,9 @@
 	<element name="Additional Ability Score Diminishment, Intelligence" type="Item" source="Internal" id="ID_INTERNAL_ITEM_ASI_INTELLIGENCE_DECREASE_1">
 		<compendium display="false" />
 		<description>
-			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p>
+				<i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i>
+			</p>
 			<div class="reference">
 				<div element="ID_INTERNAL_INFORMATION_ASI_INTELLIGENCE_DECREASE_1" />
 			</div>
@@ -84,7 +92,9 @@
 	<element name="Additional Ability Score Diminishment, Wisdom" type="Item" source="Internal" id="ID_INTERNAL_ITEM_ASI_WISDOM_DECREASE_1">
 		<compendium display="false" />
 		<description>
-			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p>
+				<i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i>
+			</p>
 			<div class="reference">
 				<div element="ID_INTERNAL_INFORMATION_ASI_WISDOM_DECREASE_1" />
 			</div>
@@ -102,7 +112,9 @@
 	<element name="Additional Ability Score Diminishment, Charisma" type="Item" source="Internal" id="ID_INTERNAL_ITEM_ASI_CHARISMA_DECREASE_1">
 		<compendium display="false" />
 		<description>
-			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p>
+				<i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i>
+			</p>
 			<div class="reference">
 				<div element="ID_INTERNAL_INFORMATION_ASI_CHARISMA_DECREASE_1" />
 			</div>
@@ -384,27 +396,27 @@
 
 	<!-- Ability Score Increase Options -->
 	<element name="Ability Score Improvement +2, +1" type="Ability Score Improvement" source="Internal" id="ID_WOTC_ASI_ABILITY_SCORE_IMPROVEMENT_OPTION_1">
-        <supports>Custom Ability Score Improvement Option</supports>
-        <description>
-            <p>You can increase one of the scores by 2 and increase a different score by 1.</p>
-        </description>
-        <sheet display="false" />
-        <rules>
-            <select type="Ability Score Improvement" name="Custom Ability Score Improvement +2" supports="Custom Ability Score Increase 2"  requirements="!ID_INTERNAL_GRANTS_BACKGROUND_ASI"/>
-            <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1" supports="Custom Ability Score Increase 1"  requirements="!ID_INTERNAL_GRANTS_BACKGROUND_ASI"/>
-        </rules>
-    </element>
+		<supports>Custom Ability Score Improvement Option</supports>
+		<description>
+			<p>You can increase one of the scores by 2 and increase a different score by 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2" supports="Custom Ability Score Increase 2" requirements="!ID_INTERNAL_GRANTS_BACKGROUND_ASI"/>
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1" supports="Custom Ability Score Increase 1" requirements="!ID_INTERNAL_GRANTS_BACKGROUND_ASI"/>
+		</rules>
+	</element>
 
-    <element name="Ability Score Improvement +1, +1, +1" type="Ability Score Improvement" source="Internal" id="ID_WOTC_ASI_ABILITY_SCORE_IMPROVEMENT_OPTION_2">
-        <supports>Custom Ability Score Improvement Option</supports>
-        <description>
-            <p>You can increase three different scores by 1.</p>
-        </description>
-        <sheet display="false" />
-        <rules>
-            <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1" number="3" supports="Custom Ability Score Increase 1"  requirements="!ID_INTERNAL_GRANTS_BACKGROUND_ASI"/>
-        </rules>
-    </element>
+	<element name="Ability Score Improvement +1, +1, +1" type="Ability Score Improvement" source="Internal" id="ID_WOTC_ASI_ABILITY_SCORE_IMPROVEMENT_OPTION_2">
+		<supports>Custom Ability Score Improvement Option</supports>
+		<description>
+			<p>You can increase three different scores by 1.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1" number="3" supports="Custom Ability Score Increase 1" requirements="!ID_INTERNAL_GRANTS_BACKGROUND_ASI"/>
+		</rules>
+	</element>
 
 	<!-- Sizes -->
 	<element name="Tiny" type="Racial Trait" source="Internal" id="ID_INTERNAL_RACIAL_TRAIT_TINY">
@@ -504,8 +516,14 @@
 	<element name="Creature Type" type="Information" source="Internal" id="ID_WOTC_INTERNAL_INFORMATION_CREATURE_TYPE">
 		<description>
 			<p>Every creature in D&amp;D, including every player character, has a special tag in the rules that identifies the type of creature they are. Most player characters are of the Humanoid type. A race option presented here tells you what your character’s creature type is.</p>
-			<p class="indent"><strong><em>List of Types.</em></strong> Here’s a list of the game’s creature types in alphabetical order: Aberration, Beast, Celestial, Construct, Dragon, Elemental, Fey, Fiend, Giant, Humanoid, Monstrosity, Ooze, Plant, Undead. These types don’t have rules themselves, but some rules in the game affect creatures of certain types in different ways. For example, the text of the <i>cure wounds</i> spell specifies that the spell doesn’t work on a creature that has the Construct or Undead type.</p>
-			<p class="indent"><strong><em>Having More Than One Type.</em></strong> Some creatures are of more than one creature type. If an effect works on at least one of a creature’s types, that effect can work on that creature. For example, if you are both a Humanoid and an Undead, <i>cure wounds</i> works on you, since the spell works on a Humanoid.</p>
+			<p class="indent">
+				<strong>
+					<em>List of Types.</em>
+				</strong> Here’s a list of the game’s creature types in alphabetical order: Aberration, Beast, Celestial, Construct, Dragon, Elemental, Fey, Fiend, Giant, Humanoid, Monstrosity, Ooze, Plant, Undead. These types don’t have rules themselves, but some rules in the game affect creatures of certain types in different ways. For example, the text of the <i>cure wounds</i> spell specifies that the spell doesn’t work on a creature that has the Construct or Undead type.</p>
+			<p class="indent">
+				<strong>
+					<em>Having More Than One Type.</em>
+				</strong> Some creatures are of more than one creature type. If an effect works on at least one of a creature’s types, that effect can work on that creature. For example, if you are both a Humanoid and an Undead, <i>cure wounds</i> works on you, since the spell works on a Humanoid.</p>
 		</description>
 	</element>
 
@@ -541,7 +559,7 @@
 			<p>Your creature type is Celestial.</p>
 			<div class="reference">
 				<div element="ID_WOTC_INTERNAL_INFORMATION_CREATURE_TYPE" />
-		</div>
+			</div>
 		</description>
 		<sheet alt="Creature Type">
 			<description>Celestial.</description>
@@ -758,7 +776,9 @@
 	<!--Speed-->
 	<element name="Speed: Climb Equals Walking" type="Item" source="Internal" id="ID_INTERNAL_ITEM_CLIMB_WALKING">
 		<description>
-			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p>
+				<i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i>
+			</p>
 			<p>You have a climbing speed equal to your walking speed.</p>
 		</description>
 		<setters>
@@ -773,7 +793,9 @@
 
 	<element name="Speed: Climb +5 Feet" type="Item" source="Internal" id="ID_INTERNAL_ITEM_CLIMB_5">
 		<description>
-			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p>
+				<i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i>
+			</p>
 			<p>YYou have an additional 5 feet of climbing speed.</p>
 		</description>
 		<setters>
@@ -788,7 +810,9 @@
 
 	<element name="Speed: Climb +10 Feet" type="Item" source="Internal" id="ID_INTERNAL_ITEM_CLIMB_10">
 		<description>
-			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p>
+				<i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i>
+			</p>
 			<p>You have an additional 10 feet of climbing speed.</p>
 		</description>
 		<setters>
@@ -803,7 +827,9 @@
 
 	<element name="Speed: Swim Equals Walking" type="Item" source="Internal" id="ID_INTERNAL_ITEM_SWIM_WALKING">
 		<description>
-			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p>
+				<i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i>
+			</p>
 			<p>You have a swiming speed equal to your walking speed.</p>
 		</description>
 		<setters>
@@ -818,7 +844,9 @@
 
 	<element name="Speed: Swim +5 Feet" type="Item" source="Internal" id="ID_INTERNAL_ITEM_SWIM_5">
 		<description>
-			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p>
+				<i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i>
+			</p>
 			<p>You have an additional 5 feet of smiming speed.</p>
 		</description>
 		<setters>
@@ -833,7 +861,9 @@
 
 	<element name="Speed: Swim +10 Feet" type="Item" source="Internal" id="ID_INTERNAL_ITEM_SWIM_10">
 		<description>
-			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p>
+				<i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i>
+			</p>
 			<p>You have an additional 10 feet of smiming speed.</p>
 		</description>
 		<setters>
@@ -848,7 +878,9 @@
 
 	<element name="Speed: Fly Equals Walking" type="Item" source="Internal" id="ID_INTERNAL_ITEM_FLY_WALKING">
 		<description>
-			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p>
+				<i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i>
+			</p>
 			<p>You have a flying speed equal to your walking speed.</p>
 		</description>
 		<setters>
@@ -863,7 +895,9 @@
 
 	<element name="Speed: Fly +5 Feet" type="Item" source="Internal" id="ID_INTERNAL_ITEM_FLY_5">
 		<description>
-			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p>
+				<i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i>
+			</p>
 			<p>You have an additional 5 feet of flying speed.</p>
 		</description>
 		<setters>
@@ -878,7 +912,9 @@
 
 	<element name="Speed: Fly +10 Feet" type="Item" source="Internal" id="ID_INTERNAL_ITEM_FLY_10">
 		<description>
-			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p>
+				<i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i>
+			</p>
 			<p>You have an additional 10 feet of flying speed.</p>
 		</description>
 		<setters>
@@ -893,7 +929,9 @@
 
 	<element name="Speed: Walk +5 Feet" type="Item" source="Internal" id="ID_INTERNAL_ITEM_WALK_5">
 		<description>
-			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p>
+				<i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i>
+			</p>
 			<p>You have an additional 5 feet of walking speed.</p>
 		</description>
 		<setters>
@@ -908,7 +946,9 @@
 
 	<element name="Speed: Walk +10 Feet" type="Item" source="Internal" id="ID_INTERNAL_ITEM_WALK_10">
 		<description>
-			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p>
+				<i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i>
+			</p>
 			<p>You have an additional 10 feet of walking speed.</p>
 		</description>
 		<setters>
@@ -963,7 +1003,9 @@
 
 	<element name="Vision: Darkvision +10 Feet" type="Item" source="Internal" id="ID_INTERNAL_RACIAL_TRAIT_DARKVISION_10">
 		<description>
-			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p>
+				<i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i>
+			</p>
 			<p>You have an additional 10 feet of darkvision.</p>
 		</description>
 		<setters>
@@ -980,7 +1022,9 @@
 
 	<element name="Vision: Darkvision +5 Feet" type="Item" source="Internal" id="ID_INTERNAL_RACIAL_TRAIT_DARKVISION_5">
 		<description>
-			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p>
+				<i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i>
+			</p>
 			<p>You have an additional 5 feet of darkvision.</p>
 		</description>
 		<setters>
@@ -1009,7 +1053,9 @@
 
 	<element name="Vision: Blindsight +10 Feet" type="Item" source="Internal" id="ID_INTERNAL_RACIAL_TRAIT_BLINDSIGHT_10">
 		<description>
-			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p>
+				<i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i>
+			</p>
 			<p>You have an additional 10 feet of blindsight.</p>
 		</description>
 		<setters>
@@ -1026,7 +1072,9 @@
 
 	<element name="Vision: Blindsight +5 Feet" type="Item" source="Internal" id="ID_INTERNAL_RACIAL_TRAIT_BLINDSIGHT_5">
 		<description>
-			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p>
+				<i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i>
+			</p>
 			<p>You have an additional 5 feet of blindsight.</p>
 		</description>
 		<setters>
@@ -1055,7 +1103,9 @@
 
 	<element name="Vision: Truesight +10 Feet" type="Item" source="Internal" id="ID_INTERNAL_RACIAL_TRAIT_TRUESIGHT_10">
 		<description>
-			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p>
+				<i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i>
+			</p>
 			<p>You have an additional 10 feet of truesight.</p>
 		</description>
 		<setters>
@@ -1072,7 +1122,9 @@
 
 	<element name="Vision: Truesight +5 Feet" type="Item" source="Internal" id="ID_INTERNAL_RACIAL_TRAIT_TRUESIGHT_5">
 		<description>
-			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p>
+				<i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i>
+			</p>
 			<p>You have an additional 5 feet of truesight.</p>
 		</description>
 		<setters>
@@ -1102,7 +1154,9 @@
 
 	<element name="Vision: Tremorsense +10 Feet" type="Item" source="Internal" id="ID_INTERNAL_RACIAL_TRAIT_TREMORSENSE_10">
 		<description>
-			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p>
+				<i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i>
+			</p>
 			<p>You have an additional 10 feet of tremorsense.</p>
 		</description>
 		<setters>
@@ -1119,7 +1173,9 @@
 
 	<element name="Vision: Tremorsense +5 Feet" type="Item" source="Internal" id="ID_INTERNAL_RACIAL_TRAIT_TREMORSENSE_5">
 		<description>
-			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p>
+				<i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i>
+			</p>
 			<p>You have an additional 5 feet of tremorsense.</p>
 		</description>
 		<setters>
@@ -1362,7 +1418,7 @@
 			<stat name="charisma:max" value="10" bonus="ability"/>
 		</rules>
 	</element>
-	
+
 	<!-- 5e 2024: ASI Combinations elements for Backgrounds -->
 	<element name="Strength, Dexterity, Constitution" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_DEX_CON">
 		<supports>Custom Background Ability Score Combination</supports>
