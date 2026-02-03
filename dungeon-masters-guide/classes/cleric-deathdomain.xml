@@ -5,7 +5,7 @@
 		<description>The Death Domain from the Dungeon Master’s Guide</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/dungeon-masters-guide">Wizards of the Coast</author>
 		<update version="0.1.4">
-			<file name="cleric-deathdomain.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/dungeon-masters-guide/classes/cleric-deathdomain.xml" />
+			<file name="cleric-deathdomain.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/dungeon-masters-guide/classes/cleric-deathdomain.xml" />
 		</update>
 	</info>
 	<element name="Death Domain" type="Archetype" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_ARCHETYPE_DEATHDOMAIN">
@@ -40,13 +40,41 @@
 			<h6>Death Domain Spells</h6>
 			<table>
 				<thead>
-					<tr><td>Cleric Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Cleric Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>1st</td><td><em>false life, ray of sickness</em></td></tr>
-				<tr><td>3rd</td><td><em>blindness/deafness, ray of enfeeblement</em></td></tr>
-				<tr><td>5th</td><td><em>animate dead, vampiric touch</em></td></tr>
-				<tr><td>7th</td><td><em>blight, death ward</em></td></tr>
-				<tr><td>9th</td><td><em>antilife shell, cloudkill</em></td></tr>
+				<tr>
+					<td>1st</td>
+					<td>
+						<em>false life, ray of sickness</em>
+					</td>
+				</tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>blindness/deafness, ray of enfeeblement</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>animate dead, vampiric touch</em>
+					</td>
+				</tr>
+				<tr>
+					<td>7th</td>
+					<td>
+						<em>blight, death ward</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>
+						<em>antilife shell, cloudkill</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<sheet display="false">

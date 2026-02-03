@@ -5,13 +5,15 @@
 		<description>Lycanthropy rules from the Monster Manual.</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/monster-manual">Wizards of the Coast</author>
 		<update version="0.0.3">
-			<file name="lycanthropy-additional-feature.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/monster-manual/lycanthropy-additional-feature.xml" />
+			<file name="lycanthropy-additional-feature.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/monster-manual/lycanthropy-additional-feature.xml" />
 		</update>
 	</info>
 
 	<element name="Lycanthropy" type="Item" source="Monster Manual" id="ID_WOTC_MM_LYCANTHROPY">
 		<description>
-			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
+			<p>
+				<i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i>
+			</p>
 			<p>One of the most ancient and feared of all curses, lycanthropy can transform the most civilized humanoid into a ravening beast. In its natural humanoid form, a creature cursed by lycanthropy appears as its normal self. Over time, however, many lycanthropes acquire , features suggestive of their animal form. In that animal form, a lycanthrope resembles a powerful version of a normal animal. On close inspection, its eyes show a faint spark of unnatural intelligence and might glow red in the dark. </p>
 		</description>
 		<setters>
@@ -112,8 +114,8 @@
 		<description>
 			<p>In your bear or hybrid form you gain two natural weapons which you are considered proficienct with:</p>
 			<ul>
-			<li>Bite: Melee Weapon Attack, 2d10 + Strength piercing damage.</li>
-			<li>Claw: Melee Weapon Attack, 2d8 + Strength slashing damage.</li>
+				<li>Bite: Melee Weapon Attack, 2d10 + Strength piercing damage.</li>
+				<li>Claw: Melee Weapon Attack, 2d8 + Strength slashing damage.</li>
 			</ul>
 		</description>
 		<sheet usage="Bear or Hybrid Form">
@@ -150,7 +152,7 @@
 			<div element="ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_RESISTANCE" />
 			<div element="ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_ARMOR" />
 			<div element="ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_CHARGE" />
-            <div element="ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_RELENTLESS" />
+			<div element="ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_RELENTLESS" />
 			<div element="ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_WEAPON" />
 			<div element="ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_MULTIATTACK" />
 		</description>
@@ -164,7 +166,7 @@
 			<grant type="Racial Trait" id="ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_RESISTANCE" />
 			<grant type="Racial Trait" id="ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_ARMOR" />
 			<grant type="Racial Trait" id="ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_CHARGE" />
-            <grant type="Racial Trait" id="ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_RELENTLESS" />
+			<grant type="Racial Trait" id="ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_RELENTLESS" />
 			<grant type="Racial Trait" id="ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_WEAPON" />
 			<grant type="Racial Trait" id="ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_MULTIATTACK" />
 		</rules>
@@ -222,28 +224,28 @@
 		<sheet>
 			<description>if you move at least 15 feet straight toward a target and then hits it with your tusks on the same turn, the target takes an extra 2d6 slashing damage. If the target is a creature, it must succeed on a DC {{wereboar charge:dc}} Strength saving throw or be knocked prone.</description>
 		</sheet>
-        <rules>
-            <stat name="wereboar charge:dc" value="3" bonus="wereboar strength" />
-            <stat name="wereboar charge:dc" value="strength:modifier" bonus="wereboar strength" />
-            <stat name="wereboar charge:dc" value="8" />
-            <stat name="wereboar charge:dc" value="proficiency" />
-        </rules>
+		<rules>
+			<stat name="wereboar charge:dc" value="3" bonus="wereboar strength" />
+			<stat name="wereboar charge:dc" value="strength:modifier" bonus="wereboar strength" />
+			<stat name="wereboar charge:dc" value="8" />
+			<stat name="wereboar charge:dc" value="proficiency" />
+		</rules>
 	</element>
 
-    <element name="Relentless" type="Racial Trait" source="Monster Manual" id="ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_RELENTLESS">
-        <description>
-            <p>If you take 14 damage or less that would reduce you to 0 hit points, you are reduced to 1 hit point instead. This can be done once per short or long rest. </p>
-        </description>
-        <sheet  usage="1/Long or Short Rest">
-            <description>If you take 14 damage or less that would reduce you to 0 hit points, you are reduced to 1 hit point instead.</description>
-        </sheet>
-    </element>
+	<element name="Relentless" type="Racial Trait" source="Monster Manual" id="ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_RELENTLESS">
+		<description>
+			<p>If you take 14 damage or less that would reduce you to 0 hit points, you are reduced to 1 hit point instead. This can be done once per short or long rest. </p>
+		</description>
+		<sheet usage="1/Long or Short Rest">
+			<description>If you take 14 damage or less that would reduce you to 0 hit points, you are reduced to 1 hit point instead.</description>
+		</sheet>
+	</element>
 
 	<element name="Natural Weapon" type="Racial Trait" source="Monster Manual" id="ID_WOTC_MM_RACIAL_TRAIT_WEREBOAR_WEAPON">
 		<description>
 			<p>In your boar or hybrid form you gain a natural weapon which you are considered proficienct with:</p>
 			<ul>
-			<li>Tusks: Melee Weapon Attack, 2d6 + Strength piercing damage.</li>
+				<li>Tusks: Melee Weapon Attack, 2d6 + Strength piercing damage.</li>
 			</ul>
 		</description>
 		<sheet usage="Boar or Hybrid Form">
@@ -345,7 +347,7 @@
 		<description>
 			<p>In your rat or hybrid form you gain a natural weapon which you are considered proficienct with:</p>
 			<ul>
-			<li>Bite: Melee Weapon Attack, 1d4 + Strength piercing damage.</li>
+				<li>Bite: Melee Weapon Attack, 1d4 + Strength piercing damage.</li>
 			</ul>
 		</description>
 		<sheet usage="Rat or Hybrid Form">
@@ -357,7 +359,7 @@
 		<rules>
 			<stat name="Wererat weapon:modifier" value="strength:modifier" bonus="Wererat strength" />
 			<stat name="Wererat weapon:modifier" value="4" bonus="Wererat strength" />
-            <stat name="Wererat weapon:modifier" value="dexterity:modifier" bonus="Wererat strength" />
+			<stat name="Wererat weapon:modifier" value="dexterity:modifier" bonus="Wererat strength" />
 		</rules>
 	</element>
 
@@ -453,20 +455,20 @@
 		<sheet>
 			<description>If you move at least 15 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC {{Weretiger Pounce:dc}} Strength saving throw or be knocked prone. If the target is prone, you can make one bite attack against it as a bonus action.</description>
 		</sheet>
-        <rules>
-            <stat name="Weretiger Pounce:dc" value="3" bonus="Weretiger strength" />
-            <stat name="Weretiger Pounce:dc" value="strength:modifier" bonus="Weretiger strength" />
-            <stat name="Weretiger Pounce:dc" value="8" />
-            <stat name="Weretiger Pounce:dc" value="proficiency" />
-        </rules>
+		<rules>
+			<stat name="Weretiger Pounce:dc" value="3" bonus="Weretiger strength" />
+			<stat name="Weretiger Pounce:dc" value="strength:modifier" bonus="Weretiger strength" />
+			<stat name="Weretiger Pounce:dc" value="8" />
+			<stat name="Weretiger Pounce:dc" value="proficiency" />
+		</rules>
 	</element>
 
 	<element name="Natural Weapons" type="Racial Trait" source="Monster Manual" id="ID_WOTC_MM_RACIAL_TRAIT_WERETIGER_WEAPONS">
 		<description>
 			<p>In your tiger or hybrid form you gain two natural weapons which you are considered proficienct with:</p>
 			<ul>
-			<li>Bite: Melee Weapon Attack, 1d10 + Strength piercing damage.</li>
-			<li>Claw: Melee Weapon Attack, 1d8 + Strength slashing damage.</li>
+				<li>Bite: Melee Weapon Attack, 1d10 + Strength piercing damage.</li>
+				<li>Claw: Melee Weapon Attack, 1d8 + Strength slashing damage.</li>
 			</ul>
 		</description>
 		<sheet usage="Tiger or Hybrid Form">
@@ -568,8 +570,8 @@
 		<description>
 			<p>In your wolf or hybrid form you gain two natural weapons which you are considered proficienct with:</p>
 			<ul>
-			<li>Bite: Melee Weapon Attack, 1d10 + Strength piercing damage.</li>
-			<li>Claw: Melee Weapon Attack, 1d8 + Strength slashing damage.</li>
+				<li>Bite: Melee Weapon Attack, 1d10 + Strength piercing damage.</li>
+				<li>Claw: Melee Weapon Attack, 1d8 + Strength slashing damage.</li>
 			</ul>
 		</description>
 		<sheet usage="Wolf or Hybrid Form">
@@ -594,4 +596,4 @@
 		</sheet>
 	</element>
 
-</elements>	
+</elements>

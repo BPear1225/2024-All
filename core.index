@@ -11,8 +11,8 @@
 	<files>
 		<file name="internal.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/core/internal.xml" />
 
-		<file name="dungeon-masters-guide.index" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/dungeon-masters-guide.index" />
-		<file name="monster-manual.index" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/monster-manual.index" />
+		<file name="dungeon-masters-guide.index" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/dungeon-masters-guide.index" />
+		<file name="monster-manual.index" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/monster-manual.index" />
 		<file name="players-handbook.index" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/players-handbook.index" />
 		<file name="players-handbook-2024.index" url="https://github.com/BPear1225/2024-All/raw/refs/heads/main/core/players-handbook-2024.index" />
 	</files>

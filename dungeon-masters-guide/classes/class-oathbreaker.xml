@@ -5,7 +5,7 @@
 		<description>The Oathbreaker Sacred Oath for the Paladin</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/dungeon-masters-guide">Wizards of the Coast</author>
 		<update version="0.0.9">
-			<file name="class-oathbreaker.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/dungeon-masters-guide/classes/class-oathbreaker.xml" />
+			<file name="class-oathbreaker.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/dungeon-masters-guide/classes/class-oathbreaker.xml" />
 		</update>
 	</info>
 
@@ -39,13 +39,41 @@
 			<h5 class="caption">OATHBREAKER SPELLS</h5>
 			<table>
 				<thead>
-					<tr><td>Paladin Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Paladin Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>3rd</td><td><em>hellish rebuke, inflict wounds</em></td></tr>
-				<tr><td>5th</td><td><em>crown of madness, darkness</em></td></tr>
-				<tr><td>9th</td><td><em>animate dead, bestow curse</em></td></tr>
-				<tr><td>13th</td><td><em>blight, confusion</em></td></tr>
-				<tr><td>17th</td><td><em>contagion, dominate person</em></td></tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>hellish rebuke, inflict wounds</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>crown of madness, darkness</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>
+						<em>animate dead, bestow curse</em>
+					</td>
+				</tr>
+				<tr>
+					<td>13th</td>
+					<td>
+						<em>blight, confusion</em>
+					</td>
+				</tr>
+				<tr>
+					<td>17th</td>
+					<td>
+						<em>contagion, dominate person</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<sheet display="false" />
@@ -66,8 +94,14 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_OATHBREAKER_CHANNEL_DIVINITY</requirements>
 		<description>
 			<p>An Oathbreaker paladin of 3rd level or higher gains the following two Channel Divinity options.</p>
-			<p class="indent"><b><i>Control Undead.</i></b> As an action, the paladin targets one undead creature he or she can see within 30 feet of him or her. The target must make a Wisdom saving throw. On a failed save, the target must obey the paladin's commands for the next 24 hours, or until the paladin uses this Channel Divinity option again. An undead whose challenge rating is equal to or greater than the paladin's level is immune to this effect.</p>
-			<p class="indent"><b><i>Dreadful Aspect.</i></b> As an action, the paladin channels the darkest emotions and focuses them into a burst of magical menace. Each creature of the paladin's choice within 30 feet of the paladin must make a Wisdom saving throw if it can see the paladin. On a failed save, the target is frightened of the paladin for 1 minute. If a creature frightened by this effect ends its turn more than 30 feet away from the paladin, it can attempt another Wisdom saving throw to end the effect on it.</p>
+			<p class="indent">
+				<b>
+					<i>Control Undead.</i>
+				</b> As an action, the paladin targets one undead creature he or she can see within 30 feet of him or her. The target must make a Wisdom saving throw. On a failed save, the target must obey the paladin's commands for the next 24 hours, or until the paladin uses this Channel Divinity option again. An undead whose challenge rating is equal to or greater than the paladin's level is immune to this effect.</p>
+			<p class="indent">
+				<b>
+					<i>Dreadful Aspect.</i>
+				</b> As an action, the paladin channels the darkest emotions and focuses them into a burst of magical menace. Each creature of the paladin's choice within 30 feet of the paladin must make a Wisdom saving throw if it can see the paladin. On a failed save, the target is frightened of the paladin for 1 minute. If a creature frightened by this effect ends its turn more than 30 feet away from the paladin, it can attempt another Wisdom saving throw to end the effect on it.</p>
 		</description>
 		<sheet display="false" />
 		<rules>

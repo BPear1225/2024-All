@@ -5,7 +5,7 @@
 		<description></description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
 		<update version="0.0.7">
-			<file name="items-armor.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/dungeon-masters-guide/items/items-armor.xml" />
+			<file name="items-armor.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/dungeon-masters-guide/items/items-armor.xml" />
 		</update>
 	</info>
 
@@ -65,7 +65,7 @@
 		<rules>
 			<stat name="ac:armored:enhancement" value="3" bonus="enhancement" />
 		</rules>
-	</element>	
+	</element>
 	<element name="Adamantine Armor" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ADAMANTINE_ARMOR">
 		<supports>Armor</supports>
 		<description>
@@ -117,7 +117,7 @@
 			<grant type="Grants" id="ID_INTERNAL_GRANTS_IGNORE_STEALTH_DISADVANTAGE" />
 			<grant type="Grants" id="ID_INTERNAL_GRANT_ARMOR_IGNORE_STRENGTH_REQUIREMENT" />
 		</rules>
-	</element>		
+	</element>
 	<element name="Armor of Resistance, Acid" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ARMOR_OF_RESISTANCE_ACID">
 		<description>
 			<p>You have resistance to acid damage while you wear this armor.</p>
@@ -155,7 +155,7 @@
 		<rules>
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
 		</rules>
-	</element>	
+	</element>
 	<element name="Armor of Resistance, Fire" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ARMOR_OF_RESISTANCE_FIRE">
 		<description>
 			<p>You have resistance to fire damage while you wear this armor.</p>
@@ -174,7 +174,7 @@
 		<rules>
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
 		</rules>
-	</element>	
+	</element>
 	<element name="Armor of Resistance, Force" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ARMOR_OF_RESISTANCE_FORCE">
 		<description>
 			<p>You have resistance to force damage while you wear this armor.</p>
@@ -193,7 +193,7 @@
 		<rules>
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FORCE" />
 		</rules>
-	</element>	
+	</element>
 	<element name="Armor of Resistance, Lightning" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ARMOR_OF_RESISTANCE_LIGHTNING">
 		<description>
 			<p>You have resistance to lightning damage while you wear this armor.</p>
@@ -212,7 +212,7 @@
 		<rules>
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" />
 		</rules>
-	</element>	
+	</element>
 	<element name="Armor of Resistance, Necrotic" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ARMOR_OF_RESISTANCE_NECROTIC">
 		<description>
 			<p>You have resistance to necrotic damage while you wear this armor.</p>
@@ -231,7 +231,7 @@
 		<rules>
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
 		</rules>
-	</element>	
+	</element>
 	<element name="Armor of Resistance, Poison" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ARMOR_OF_RESISTANCE_POISON">
 		<description>
 			<p>You have resistance to poison damage while you wear this armor.</p>
@@ -250,7 +250,7 @@
 		<rules>
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
 		</rules>
-	</element>	
+	</element>
 	<element name="Armor of Resistance, Psychic" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ARMOR_OF_RESISTANCE_PSYCHIC">
 		<description>
 			<p>You have resistance to psychic damage while you wear this armor.</p>
@@ -269,7 +269,7 @@
 		<rules>
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC" />
 		</rules>
-	</element>	
+	</element>
 	<element name="Armor of Resistance, Radiant" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ARMOR_OF_RESISTANCE_RADIANT">
 		<description>
 			<p>You have resistance to radiant damage while you wear this armor.</p>
@@ -288,7 +288,7 @@
 		<rules>
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_RADIANT" />
 		</rules>
-	</element>	
+	</element>
 	<element name="Armor of Resistance, Thunder" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ARMOR_OF_RESISTANCE_THUNDER">
 		<description>
 			<p>You have resistance to thunder damage while you wear this armor.</p>
@@ -311,7 +311,10 @@
 	<element name="Armor of Vulnerability" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ARMOR_OF_VULNERABILITY">
 		<description>
 			<p>While wearing this armor, you have resistance to one of the following damage types: bludgeoning, piercing, or slashing. The GM chooses the type or determines it randomly.</p>
-			<p class="indent"><strong><em>Curse. </em></strong>This armor is cursed, a fact that is revealed only when an Identify spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by the <em>remove curse</em> spell or similar magic; removing the armor fails to end the curse. While cursed, you have vulnerability to two of the three damage types associated with the armor (not the one to which it grants resistance).</p>
+			<p class="indent">
+				<strong>
+					<em>Curse. </em>
+				</strong>This armor is cursed, a fact that is revealed only when an Identify spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by the <em>remove curse</em> spell or similar magic; removing the armor fails to end the curse. While cursed, you have vulnerability to two of the three damage types associated with the armor (not the one to which it grants resistance).</p>
 		</description>
 		<setters>
 			<set name="keywords">plate, resistance</set>
@@ -342,7 +345,7 @@
 		</setters>
 		<rules>
 			<stat name="ac:armored:enhancement" value="1" bonus="enhancement" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_CHAIN_SHIRT" />			
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_CHAIN_SHIRT" />
 		</rules>
 	</element>
 	<element name="Glamoured Studded Leather" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_GLAMOURED_STUDDED_LEATHER">
@@ -366,7 +369,10 @@
 	<element name="Demon Armor" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_DEMON_ARMOR">
 		<description>
 			<p>While wearing this armor, you gain a +1 bonus to AC, and you can understand and speak Abyssal. In addition, the armor's clawed gauntlets turn unarmed strikes with your hands into magic weapons that deal slashing damage, with a +1 bonus to attack rolls and damage rolls and a damage die of 1d8.</p>
-			<p class="indent"><strong><em>Curse. </em></strong>Once you don this cursed armor, you can't doff it unless you are targeted by the <em>remove curse</em> spell or similar magic. While wearing the armor, you have disadvantage on attack rolls against demons and on saving throws against their spells and special abilities.</p>
+			<p class="indent">
+				<strong>
+					<em>Curse. </em>
+				</strong>Once you don this cursed armor, you can't doff it unless you are targeted by the <em>remove curse</em> spell or similar magic. While wearing the armor, you have disadvantage on attack rolls against demons and on saving throws against their spells and special abilities.</p>
 		</description>
 		<setters>
 			<set name="keywords">plate</set>
@@ -412,18 +418,54 @@
 			<p>While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to one damage type that is determined by the kind of dragon that provided the scales (see the table).</p>
 			<p>Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest dragon within 30 miles of you that is of the same type as the armor. This special action can't be used again until the next dawn.</p>
 			<table>
-				<thead><tr><td>Dragon</td><td>Resistance</td></tr></thead>
+				<thead>
+					<tr>
+						<td>Dragon</td>
+						<td>Resistance</td>
+					</tr>
+				</thead>
 				<tbody>
-					<tr><td>Black</td><td>Acid</td></tr>
-					<tr><td>Blue</td><td>Lightning</td></tr>
-					<tr><td>Brass</td><td>Fire</td></tr>
-					<tr><td>Bronze</td><td>Lightning</td></tr>
-					<tr><td>Copper</td><td>Acid</td></tr>
-					<tr><td>Gold</td><td>Fire</td></tr>
-					<tr><td>Green</td><td>Poison</td></tr>
-					<tr><td>Red</td><td>Fire</td></tr>
-					<tr><td>Silver</td><td>Cold</td></tr>
-					<tr><td>White</td><td>Cold</td></tr></tbody>
+					<tr>
+						<td>Black</td>
+						<td>Acid</td>
+					</tr>
+					<tr>
+						<td>Blue</td>
+						<td>Lightning</td>
+					</tr>
+					<tr>
+						<td>Brass</td>
+						<td>Fire</td>
+					</tr>
+					<tr>
+						<td>Bronze</td>
+						<td>Lightning</td>
+					</tr>
+					<tr>
+						<td>Copper</td>
+						<td>Acid</td>
+					</tr>
+					<tr>
+						<td>Gold</td>
+						<td>Fire</td>
+					</tr>
+					<tr>
+						<td>Green</td>
+						<td>Poison</td>
+					</tr>
+					<tr>
+						<td>Red</td>
+						<td>Fire</td>
+					</tr>
+					<tr>
+						<td>Silver</td>
+						<td>Cold</td>
+					</tr>
+					<tr>
+						<td>White</td>
+						<td>Cold</td>
+					</tr>
+				</tbody>
 			</table>
 		</description>
 		<setters>
@@ -448,18 +490,54 @@
 			<p>While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to one damage type that is determined by the kind of dragon that provided the scales (see the table).</p>
 			<p>Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest dragon within 30 miles of you that is of the same type as the armor. This special action can't be used again until the next dawn.</p>
 			<table>
-				<thead><tr><td>Dragon</td><td>Resistance</td></tr></thead>
+				<thead>
+					<tr>
+						<td>Dragon</td>
+						<td>Resistance</td>
+					</tr>
+				</thead>
 				<tbody>
-					<tr><td>Black</td><td>Acid</td></tr>
-					<tr><td>Blue</td><td>Lightning</td></tr>
-					<tr><td>Brass</td><td>Fire</td></tr>
-					<tr><td>Bronze</td><td>Lightning</td></tr>
-					<tr><td>Copper</td><td>Acid</td></tr>
-					<tr><td>Gold</td><td>Fire</td></tr>
-					<tr><td>Green</td><td>Poison</td></tr>
-					<tr><td>Red</td><td>Fire</td></tr>
-					<tr><td>Silver</td><td>Cold</td></tr>
-					<tr><td>White</td><td>Cold</td></tr></tbody>
+					<tr>
+						<td>Black</td>
+						<td>Acid</td>
+					</tr>
+					<tr>
+						<td>Blue</td>
+						<td>Lightning</td>
+					</tr>
+					<tr>
+						<td>Brass</td>
+						<td>Fire</td>
+					</tr>
+					<tr>
+						<td>Bronze</td>
+						<td>Lightning</td>
+					</tr>
+					<tr>
+						<td>Copper</td>
+						<td>Acid</td>
+					</tr>
+					<tr>
+						<td>Gold</td>
+						<td>Fire</td>
+					</tr>
+					<tr>
+						<td>Green</td>
+						<td>Poison</td>
+					</tr>
+					<tr>
+						<td>Red</td>
+						<td>Fire</td>
+					</tr>
+					<tr>
+						<td>Silver</td>
+						<td>Cold</td>
+					</tr>
+					<tr>
+						<td>White</td>
+						<td>Cold</td>
+					</tr>
+				</tbody>
 			</table>
 		</description>
 		<setters>
@@ -484,18 +562,54 @@
 			<p>While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to one damage type that is determined by the kind of dragon that provided the scales (see the table).</p>
 			<p>Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest dragon within 30 miles of you that is of the same type as the armor. This special action can't be used again until the next dawn.</p>
 			<table>
-				<thead><tr><td>Dragon</td><td>Resistance</td></tr></thead>
+				<thead>
+					<tr>
+						<td>Dragon</td>
+						<td>Resistance</td>
+					</tr>
+				</thead>
 				<tbody>
-					<tr><td>Black</td><td>Acid</td></tr>
-					<tr><td>Blue</td><td>Lightning</td></tr>
-					<tr><td>Brass</td><td>Fire</td></tr>
-					<tr><td>Bronze</td><td>Lightning</td></tr>
-					<tr><td>Copper</td><td>Acid</td></tr>
-					<tr><td>Gold</td><td>Fire</td></tr>
-					<tr><td>Green</td><td>Poison</td></tr>
-					<tr><td>Red</td><td>Fire</td></tr>
-					<tr><td>Silver</td><td>Cold</td></tr>
-					<tr><td>White</td><td>Cold</td></tr></tbody>
+					<tr>
+						<td>Black</td>
+						<td>Acid</td>
+					</tr>
+					<tr>
+						<td>Blue</td>
+						<td>Lightning</td>
+					</tr>
+					<tr>
+						<td>Brass</td>
+						<td>Fire</td>
+					</tr>
+					<tr>
+						<td>Bronze</td>
+						<td>Lightning</td>
+					</tr>
+					<tr>
+						<td>Copper</td>
+						<td>Acid</td>
+					</tr>
+					<tr>
+						<td>Gold</td>
+						<td>Fire</td>
+					</tr>
+					<tr>
+						<td>Green</td>
+						<td>Poison</td>
+					</tr>
+					<tr>
+						<td>Red</td>
+						<td>Fire</td>
+					</tr>
+					<tr>
+						<td>Silver</td>
+						<td>Cold</td>
+					</tr>
+					<tr>
+						<td>White</td>
+						<td>Cold</td>
+					</tr>
+				</tbody>
 			</table>
 		</description>
 		<setters>
@@ -520,18 +634,54 @@
 			<p>While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to one damage type that is determined by the kind of dragon that provided the scales (see the table).</p>
 			<p>Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest dragon within 30 miles of you that is of the same type as the armor. This special action can't be used again until the next dawn.</p>
 			<table>
-				<thead><tr><td>Dragon</td><td>Resistance</td></tr></thead>
+				<thead>
+					<tr>
+						<td>Dragon</td>
+						<td>Resistance</td>
+					</tr>
+				</thead>
 				<tbody>
-					<tr><td>Black</td><td>Acid</td></tr>
-					<tr><td>Blue</td><td>Lightning</td></tr>
-					<tr><td>Brass</td><td>Fire</td></tr>
-					<tr><td>Bronze</td><td>Lightning</td></tr>
-					<tr><td>Copper</td><td>Acid</td></tr>
-					<tr><td>Gold</td><td>Fire</td></tr>
-					<tr><td>Green</td><td>Poison</td></tr>
-					<tr><td>Red</td><td>Fire</td></tr>
-					<tr><td>Silver</td><td>Cold</td></tr>
-					<tr><td>White</td><td>Cold</td></tr></tbody>
+					<tr>
+						<td>Black</td>
+						<td>Acid</td>
+					</tr>
+					<tr>
+						<td>Blue</td>
+						<td>Lightning</td>
+					</tr>
+					<tr>
+						<td>Brass</td>
+						<td>Fire</td>
+					</tr>
+					<tr>
+						<td>Bronze</td>
+						<td>Lightning</td>
+					</tr>
+					<tr>
+						<td>Copper</td>
+						<td>Acid</td>
+					</tr>
+					<tr>
+						<td>Gold</td>
+						<td>Fire</td>
+					</tr>
+					<tr>
+						<td>Green</td>
+						<td>Poison</td>
+					</tr>
+					<tr>
+						<td>Red</td>
+						<td>Fire</td>
+					</tr>
+					<tr>
+						<td>Silver</td>
+						<td>Cold</td>
+					</tr>
+					<tr>
+						<td>White</td>
+						<td>Cold</td>
+					</tr>
+				</tbody>
 			</table>
 		</description>
 		<setters>
@@ -556,18 +706,54 @@
 			<p>While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to one damage type that is determined by the kind of dragon that provided the scales (see the table).</p>
 			<p>Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest dragon within 30 miles of you that is of the same type as the armor. This special action can't be used again until the next dawn.</p>
 			<table>
-				<thead><tr><td>Dragon</td><td>Resistance</td></tr></thead>
+				<thead>
+					<tr>
+						<td>Dragon</td>
+						<td>Resistance</td>
+					</tr>
+				</thead>
 				<tbody>
-					<tr><td>Black</td><td>Acid</td></tr>
-					<tr><td>Blue</td><td>Lightning</td></tr>
-					<tr><td>Brass</td><td>Fire</td></tr>
-					<tr><td>Bronze</td><td>Lightning</td></tr>
-					<tr><td>Copper</td><td>Acid</td></tr>
-					<tr><td>Gold</td><td>Fire</td></tr>
-					<tr><td>Green</td><td>Poison</td></tr>
-					<tr><td>Red</td><td>Fire</td></tr>
-					<tr><td>Silver</td><td>Cold</td></tr>
-					<tr><td>White</td><td>Cold</td></tr></tbody>
+					<tr>
+						<td>Black</td>
+						<td>Acid</td>
+					</tr>
+					<tr>
+						<td>Blue</td>
+						<td>Lightning</td>
+					</tr>
+					<tr>
+						<td>Brass</td>
+						<td>Fire</td>
+					</tr>
+					<tr>
+						<td>Bronze</td>
+						<td>Lightning</td>
+					</tr>
+					<tr>
+						<td>Copper</td>
+						<td>Acid</td>
+					</tr>
+					<tr>
+						<td>Gold</td>
+						<td>Fire</td>
+					</tr>
+					<tr>
+						<td>Green</td>
+						<td>Poison</td>
+					</tr>
+					<tr>
+						<td>Red</td>
+						<td>Fire</td>
+					</tr>
+					<tr>
+						<td>Silver</td>
+						<td>Cold</td>
+					</tr>
+					<tr>
+						<td>White</td>
+						<td>Cold</td>
+					</tr>
+				</tbody>
 			</table>
 		</description>
 		<setters>
@@ -592,18 +778,54 @@
 			<p>While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to one damage type that is determined by the kind of dragon that provided the scales (see the table).</p>
 			<p>Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest dragon within 30 miles of you that is of the same type as the armor. This special action can't be used again until the next dawn.</p>
 			<table>
-				<thead><tr><td>Dragon</td><td>Resistance</td></tr></thead>
+				<thead>
+					<tr>
+						<td>Dragon</td>
+						<td>Resistance</td>
+					</tr>
+				</thead>
 				<tbody>
-					<tr><td>Black</td><td>Acid</td></tr>
-					<tr><td>Blue</td><td>Lightning</td></tr>
-					<tr><td>Brass</td><td>Fire</td></tr>
-					<tr><td>Bronze</td><td>Lightning</td></tr>
-					<tr><td>Copper</td><td>Acid</td></tr>
-					<tr><td>Gold</td><td>Fire</td></tr>
-					<tr><td>Green</td><td>Poison</td></tr>
-					<tr><td>Red</td><td>Fire</td></tr>
-					<tr><td>Silver</td><td>Cold</td></tr>
-					<tr><td>White</td><td>Cold</td></tr></tbody>
+					<tr>
+						<td>Black</td>
+						<td>Acid</td>
+					</tr>
+					<tr>
+						<td>Blue</td>
+						<td>Lightning</td>
+					</tr>
+					<tr>
+						<td>Brass</td>
+						<td>Fire</td>
+					</tr>
+					<tr>
+						<td>Bronze</td>
+						<td>Lightning</td>
+					</tr>
+					<tr>
+						<td>Copper</td>
+						<td>Acid</td>
+					</tr>
+					<tr>
+						<td>Gold</td>
+						<td>Fire</td>
+					</tr>
+					<tr>
+						<td>Green</td>
+						<td>Poison</td>
+					</tr>
+					<tr>
+						<td>Red</td>
+						<td>Fire</td>
+					</tr>
+					<tr>
+						<td>Silver</td>
+						<td>Cold</td>
+					</tr>
+					<tr>
+						<td>White</td>
+						<td>Cold</td>
+					</tr>
+				</tbody>
 			</table>
 		</description>
 		<setters>
@@ -628,18 +850,54 @@
 			<p>While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to one damage type that is determined by the kind of dragon that provided the scales (see the table).</p>
 			<p>Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest dragon within 30 miles of you that is of the same type as the armor. This special action can't be used again until the next dawn.</p>
 			<table>
-				<thead><tr><td>Dragon</td><td>Resistance</td></tr></thead>
+				<thead>
+					<tr>
+						<td>Dragon</td>
+						<td>Resistance</td>
+					</tr>
+				</thead>
 				<tbody>
-					<tr><td>Black</td><td>Acid</td></tr>
-					<tr><td>Blue</td><td>Lightning</td></tr>
-					<tr><td>Brass</td><td>Fire</td></tr>
-					<tr><td>Bronze</td><td>Lightning</td></tr>
-					<tr><td>Copper</td><td>Acid</td></tr>
-					<tr><td>Gold</td><td>Fire</td></tr>
-					<tr><td>Green</td><td>Poison</td></tr>
-					<tr><td>Red</td><td>Fire</td></tr>
-					<tr><td>Silver</td><td>Cold</td></tr>
-					<tr><td>White</td><td>Cold</td></tr></tbody>
+					<tr>
+						<td>Black</td>
+						<td>Acid</td>
+					</tr>
+					<tr>
+						<td>Blue</td>
+						<td>Lightning</td>
+					</tr>
+					<tr>
+						<td>Brass</td>
+						<td>Fire</td>
+					</tr>
+					<tr>
+						<td>Bronze</td>
+						<td>Lightning</td>
+					</tr>
+					<tr>
+						<td>Copper</td>
+						<td>Acid</td>
+					</tr>
+					<tr>
+						<td>Gold</td>
+						<td>Fire</td>
+					</tr>
+					<tr>
+						<td>Green</td>
+						<td>Poison</td>
+					</tr>
+					<tr>
+						<td>Red</td>
+						<td>Fire</td>
+					</tr>
+					<tr>
+						<td>Silver</td>
+						<td>Cold</td>
+					</tr>
+					<tr>
+						<td>White</td>
+						<td>Cold</td>
+					</tr>
+				</tbody>
 			</table>
 		</description>
 		<setters>
@@ -664,18 +922,54 @@
 			<p>While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to one damage type that is determined by the kind of dragon that provided the scales (see the table).</p>
 			<p>Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest dragon within 30 miles of you that is of the same type as the armor. This special action can't be used again until the next dawn.</p>
 			<table>
-				<thead><tr><td>Dragon</td><td>Resistance</td></tr></thead>
+				<thead>
+					<tr>
+						<td>Dragon</td>
+						<td>Resistance</td>
+					</tr>
+				</thead>
 				<tbody>
-					<tr><td>Black</td><td>Acid</td></tr>
-					<tr><td>Blue</td><td>Lightning</td></tr>
-					<tr><td>Brass</td><td>Fire</td></tr>
-					<tr><td>Bronze</td><td>Lightning</td></tr>
-					<tr><td>Copper</td><td>Acid</td></tr>
-					<tr><td>Gold</td><td>Fire</td></tr>
-					<tr><td>Green</td><td>Poison</td></tr>
-					<tr><td>Red</td><td>Fire</td></tr>
-					<tr><td>Silver</td><td>Cold</td></tr>
-					<tr><td>White</td><td>Cold</td></tr></tbody>
+					<tr>
+						<td>Black</td>
+						<td>Acid</td>
+					</tr>
+					<tr>
+						<td>Blue</td>
+						<td>Lightning</td>
+					</tr>
+					<tr>
+						<td>Brass</td>
+						<td>Fire</td>
+					</tr>
+					<tr>
+						<td>Bronze</td>
+						<td>Lightning</td>
+					</tr>
+					<tr>
+						<td>Copper</td>
+						<td>Acid</td>
+					</tr>
+					<tr>
+						<td>Gold</td>
+						<td>Fire</td>
+					</tr>
+					<tr>
+						<td>Green</td>
+						<td>Poison</td>
+					</tr>
+					<tr>
+						<td>Red</td>
+						<td>Fire</td>
+					</tr>
+					<tr>
+						<td>Silver</td>
+						<td>Cold</td>
+					</tr>
+					<tr>
+						<td>White</td>
+						<td>Cold</td>
+					</tr>
+				</tbody>
 			</table>
 		</description>
 		<setters>
@@ -700,18 +994,54 @@
 			<p>While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to one damage type that is determined by the kind of dragon that provided the scales (see the table).</p>
 			<p>Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest dragon within 30 miles of you that is of the same type as the armor. This special action can't be used again until the next dawn.</p>
 			<table>
-				<thead><tr><td>Dragon</td><td>Resistance</td></tr></thead>
+				<thead>
+					<tr>
+						<td>Dragon</td>
+						<td>Resistance</td>
+					</tr>
+				</thead>
 				<tbody>
-					<tr><td>Black</td><td>Acid</td></tr>
-					<tr><td>Blue</td><td>Lightning</td></tr>
-					<tr><td>Brass</td><td>Fire</td></tr>
-					<tr><td>Bronze</td><td>Lightning</td></tr>
-					<tr><td>Copper</td><td>Acid</td></tr>
-					<tr><td>Gold</td><td>Fire</td></tr>
-					<tr><td>Green</td><td>Poison</td></tr>
-					<tr><td>Red</td><td>Fire</td></tr>
-					<tr><td>Silver</td><td>Cold</td></tr>
-					<tr><td>White</td><td>Cold</td></tr></tbody>
+					<tr>
+						<td>Black</td>
+						<td>Acid</td>
+					</tr>
+					<tr>
+						<td>Blue</td>
+						<td>Lightning</td>
+					</tr>
+					<tr>
+						<td>Brass</td>
+						<td>Fire</td>
+					</tr>
+					<tr>
+						<td>Bronze</td>
+						<td>Lightning</td>
+					</tr>
+					<tr>
+						<td>Copper</td>
+						<td>Acid</td>
+					</tr>
+					<tr>
+						<td>Gold</td>
+						<td>Fire</td>
+					</tr>
+					<tr>
+						<td>Green</td>
+						<td>Poison</td>
+					</tr>
+					<tr>
+						<td>Red</td>
+						<td>Fire</td>
+					</tr>
+					<tr>
+						<td>Silver</td>
+						<td>Cold</td>
+					</tr>
+					<tr>
+						<td>White</td>
+						<td>Cold</td>
+					</tr>
+				</tbody>
 			</table>
 		</description>
 		<setters>
@@ -857,7 +1187,7 @@
 			<stat name="ac:shield" value="3" bonus="enhancement" />
 		</rules>
 	</element>
-	
+
 	<element name="Sentinel Shield" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_SENTINEL_SHIELD">
 		<description>
 			<p>While holding this shield, you have advantage on initiative rolls and Wisdom (Perception) checks. The shield is emblazoned with a symbol of an eye.</p>
@@ -891,7 +1221,8 @@
 	<element name="Shield of Missile Attraction" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_SHIELD_OF_MISSILE_ATTRACTION">
 		<description>
 			<p>While holding this shield, you have resistance to damage from ranged weapon attacks.</p>
-			<p><strong>Curse.</strong> This shield is cursed. Attuning to it curses you until you are targeted by the <em>remove curse</em> spell or similar magic. Removing the shield fails to end the curse on you. Whenever a ranged weapon attack is made against a target within 10 feet of you, the curse causes you to become the target instead.</p>
+			<p>
+				<strong>Curse.</strong> This shield is cursed. Attuning to it curses you until you are targeted by the <em>remove curse</em> spell or similar magic. Removing the shield fails to end the curse on you. Whenever a ranged weapon attack is made against a target within 10 feet of you, the curse causes you to become the target instead.</p>
 		</description>
 		<setters>
 			<set name="keywords">shield</set>
