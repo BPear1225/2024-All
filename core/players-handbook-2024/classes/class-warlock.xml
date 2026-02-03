@@ -307,7 +307,6 @@
 			<set name="hd">d8</set>
 		</setters>
 		<rules>
-			<select type="Feat" name="Starter Feat"/>
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_WOTC_PHB24_MULTICLASS_WARLOCK"/>
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_WOTC_PHB24_MULTICLASS_WARLOCK, ID_WOTC_SOURCE_PLAYERS_HANDBOOK"/>
