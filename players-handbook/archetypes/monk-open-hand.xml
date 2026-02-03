@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-			<file name="monk-open-hand.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/archetypes/monk-open-hand.xml" />
+			<file name="monk-open-hand.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/players-handbook/archetypes/monk-open-hand.xml" />
 		</update>
 	</info>
 
@@ -78,7 +78,7 @@
 			You can have only one creature under the effect of this feature at a time. You can choose to end the vibrations harmlessly without using an action.</description>
 		</sheet>
 	</element>
-	
+
 	<!--Feature Replacement Grants-->
 	<element name="Open Hand Technique Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_MONK_WAY_OF_THE_OPEN_HAND_OPEN_HAND_TECHNIQUE" />
 	<element name="Wholeness of Body Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_MONK_WAY_OF_THE_OPEN_HAND_WHOLENESS_OF_BODY" />

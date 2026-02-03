@@ -3,7 +3,7 @@
 	<info>
 		<name>Fighter</name>
 		<update version="0.4.2">
-			<file name="class-fighter.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/classes/class-fighter.xml" />
+			<file name="class-fighter.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/players-handbook/classes/class-fighter.xml" />
 		</update>
 	</info>
 
@@ -25,55 +25,130 @@
 			<p>You can make a fighter quickly by following these suggestions. First, make Strength or Dexterity your highest ability score, depending on whether you want to focus on melee weapons or on archery (or finesse weapons). Your next-highest score should be Constitution. Second, choose the soldier background.</p>
 			<h3>CLASS FEATURES</h3>
 			<p>As a fighter, you gain the following class features.</p>
-            <h5>HIT POINTS</h5>
-            <ul class="unstyled">
-                <li><strong>Hit Dice:</strong> 1d10 per fighter level</li>
-                <li><strong>Hit Points at 1st Level:</strong> 10 + your Constitution modifier</li>
-                <li><strong>Hit Points at Higher Levels:</strong> 1d10 (or 6) + your Constitution modifier per fighter level after 1st</li>
-            </ul>
-            <h5>PROFICIENCIES</h5>
-            <ul class="unstyled mb">
-                <li><strong>Armor:</strong> All armor, shields</li>
-                <li><strong>Weapons:</strong> Simple weapons, martial weapons</li>
-                <li><strong>Tools:</strong> None</li>
-            </ul>
-            <ul class="unstyled">
-                <li><strong>Saving Throws:</strong> Strength, Constitution</li>
-                <li><strong>Skills:</strong> Choose two skills from Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Perception, and Survival</li>
-            </ul>
+			<h5>HIT POINTS</h5>
+			<ul class="unstyled">
+				<li>
+					<strong>Hit Dice:</strong> 1d10 per fighter level</li>
+				<li>
+					<strong>Hit Points at 1st Level:</strong> 10 + your Constitution modifier</li>
+				<li>
+					<strong>Hit Points at Higher Levels:</strong> 1d10 (or 6) + your Constitution modifier per fighter level after 1st</li>
+			</ul>
+			<h5>PROFICIENCIES</h5>
+			<ul class="unstyled mb">
+				<li>
+					<strong>Armor:</strong> All armor, shields</li>
+				<li>
+					<strong>Weapons:</strong> Simple weapons, martial weapons</li>
+				<li>
+					<strong>Tools:</strong> None</li>
+			</ul>
+			<ul class="unstyled">
+				<li>
+					<strong>Saving Throws:</strong> Strength, Constitution</li>
+				<li>
+					<strong>Skills:</strong> Choose two skills from Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Perception, and Survival</li>
+			</ul>
 			<h5>EQUIPMENT</h5>
 			<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
 			<ul>
-				<li><i>(a)</i> chain mail or <i>(b)</i> leather armor, longbow, and 20 arrows</li>
-				<li><i>(a)</i> a martial weapon and a shield or <i>(b)</i> two martial weapons</li>
-				<li><i>(a)</i> a light crossbow and 20 bolts or <i>(b)</i> two handaxes</li>
-				<li><i>(a)</i> a dungeoneer’s pack or <i>(b)</i> an explorer’s pack</li>
+				<li>
+					<i>(a)</i> chain mail or <i>(b)</i> leather armor, longbow, and 20 arrows</li>
+				<li>
+					<i>(a)</i> a martial weapon and a shield or <i>(b)</i> two martial weapons</li>
+				<li>
+					<i>(a)</i> a light crossbow and 20 bolts or <i>(b)</i> two handaxes</li>
+				<li>
+					<i>(a)</i> a dungeoneer’s pack or <i>(b)</i> an explorer’s pack</li>
 			</ul>
 			<h5 class="caption">THE FIGHTER</h5>
 			<table class="class-features">
 				<thead>
-					<tr><td class="col-5">Level</td><td class="left">Features</td></tr>
+					<tr>
+						<td class="col-5">Level</td>
+						<td class="left">Features</td>
+					</tr>
 				</thead>
-				<tr><td> 1st</td><td class="left">Fighting Style, Second Wind</td></tr>
-				<tr><td> 2nd</td><td class="left">Action Surge (one use)</td></tr>
-				<tr><td> 3rd</td><td class="left">Martial Archetype</td></tr>
-				<tr><td> 4th</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td> 5th</td><td class="left">Extra Attack</td></tr>
-				<tr><td> 6th</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td> 7th</td><td class="left">Martial Archetype feature</td></tr>
-				<tr><td> 8th</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td> 9th</td><td class="left">Indomitable (one use)</td></tr>
-				<tr><td>10th</td><td class="left">Martial Archetype feature</td></tr>
-				<tr><td>11th</td><td class="left">Extra Attack (2)</td></tr>
-				<tr><td>12th</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>13th</td><td class="left">Indomitable (two uses)</td></tr>
-				<tr><td>14th</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>15th</td><td class="left">Martial Archetype feature</td></tr>
-				<tr><td>16th</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>17th</td><td class="left">Action Surge (two uses), Indomitable (three uses)</td></tr>
-				<tr><td>18th</td><td class="left">Martial Archetype feature</td></tr>
-				<tr><td>19th</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>20th</td><td class="left">Extra Attack (3)</td></tr>
+				<tr>
+					<td> 1st</td>
+					<td class="left">Fighting Style, Second Wind</td>
+				</tr>
+				<tr>
+					<td> 2nd</td>
+					<td class="left">Action Surge (one use)</td>
+				</tr>
+				<tr>
+					<td> 3rd</td>
+					<td class="left">Martial Archetype</td>
+				</tr>
+				<tr>
+					<td> 4th</td>
+					<td class="left">Ability Score Improvement</td>
+				</tr>
+				<tr>
+					<td> 5th</td>
+					<td class="left">Extra Attack</td>
+				</tr>
+				<tr>
+					<td> 6th</td>
+					<td class="left">Ability Score Improvement</td>
+				</tr>
+				<tr>
+					<td> 7th</td>
+					<td class="left">Martial Archetype feature</td>
+				</tr>
+				<tr>
+					<td> 8th</td>
+					<td class="left">Ability Score Improvement</td>
+				</tr>
+				<tr>
+					<td> 9th</td>
+					<td class="left">Indomitable (one use)</td>
+				</tr>
+				<tr>
+					<td>10th</td>
+					<td class="left">Martial Archetype feature</td>
+				</tr>
+				<tr>
+					<td>11th</td>
+					<td class="left">Extra Attack (2)</td>
+				</tr>
+				<tr>
+					<td>12th</td>
+					<td class="left">Ability Score Improvement</td>
+				</tr>
+				<tr>
+					<td>13th</td>
+					<td class="left">Indomitable (two uses)</td>
+				</tr>
+				<tr>
+					<td>14th</td>
+					<td class="left">Ability Score Improvement</td>
+				</tr>
+				<tr>
+					<td>15th</td>
+					<td class="left">Martial Archetype feature</td>
+				</tr>
+				<tr>
+					<td>16th</td>
+					<td class="left">Ability Score Improvement</td>
+				</tr>
+				<tr>
+					<td>17th</td>
+					<td class="left">Action Surge (two uses), Indomitable (three uses)</td>
+				</tr>
+				<tr>
+					<td>18th</td>
+					<td class="left">Martial Archetype feature</td>
+				</tr>
+				<tr>
+					<td>19th</td>
+					<td class="left">Ability Score Improvement</td>
+				</tr>
+				<tr>
+					<td>20th</td>
+					<td class="left">Extra Attack (3)</td>
+				</tr>
 			</table>
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_SECONDWIND" />

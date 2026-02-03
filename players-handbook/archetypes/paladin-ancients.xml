@@ -3,7 +3,7 @@
 	<info>
 		<name></name>
 		<update version="0.0.1">
-			<file name="paladin-ancients.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/archetypes/paladin-ancients.xml" />
+			<file name="paladin-ancients.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/players-handbook/archetypes/paladin-ancients.xml" />
 		</update>
 	</info>
 
@@ -13,10 +13,22 @@
 			<p>The Oath of the Ancients is as old as the race of elves and the rituals of the druids. Sometimes called fey knights, green knights, or horned knights, paladins who swear this oath cast their lot with the side of the light in the cosmic struggle against darkness because they love the beautiful and life-giving things of the world, not necessarily because they believe in principles of honor, courage, and justice. They adorn their armor and clothing with images of growing things—leaves, antlers, or flowers—to reflect their commitment to preserving life and light in the world.</p>
 			<h5 class="caption">TENETS OF THE ANCIENTS</h5>
 			<p>The tenets of the Oath of the Ancients have been preserved for uncounted centuries. This oath emphasizes the principles of good above any concerns of law or chaos. Its four central principles are simple.</p>
-			<p class="indent"><b><i>Kindle the Light.</i></b> Through your acts of mercy, kindness, and forgiveness, kindle the light of hope in the world, beating back despair.</p>
-			<p class="indent"><b><i>Shelter the Light.</i></b> Where there is good, beauty, love, and laughter in the world, stand against the wickedness that would swallow it. Where life flourishes, stand against the forces that would render it barren.</p>
-			<p class="indent"><b><i>Preserve Your Own Light.</i></b> Delight in song and laughter, in beauty and art. If you allow the light to die in your own heart, you can’t preserve it in the world.</p>
-			<p class="indent"><b><i>Be the Light.</i></b> Be a glorious beacon for all who live in despair. Let the light of your joy and courage shine forth in all your deeds.</p>
+			<p class="indent">
+				<b>
+					<i>Kindle the Light.</i>
+				</b> Through your acts of mercy, kindness, and forgiveness, kindle the light of hope in the world, beating back despair.</p>
+			<p class="indent">
+				<b>
+					<i>Shelter the Light.</i>
+				</b> Where there is good, beauty, love, and laughter in the world, stand against the wickedness that would swallow it. Where life flourishes, stand against the forces that would render it barren.</p>
+			<p class="indent">
+				<b>
+					<i>Preserve Your Own Light.</i>
+				</b> Delight in song and laughter, in beauty and art. If you allow the light to die in your own heart, you can’t preserve it in the world.</p>
+			<p class="indent">
+				<b>
+					<i>Be the Light.</i>
+				</b> Be a glorious beacon for all who live in despair. Let the light of your joy and courage shine forth in all your deeds.</p>
 			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_OOTA_OATH_SPELLS" />
 			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_OOTA_CHANNEL_DIVINITY" />
 			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_OOTA_AURA_OF_WARDING" />
@@ -39,13 +51,41 @@
 			<h5 class="caption">OATH OF THE ANCIENTS SPELLS</h5>
 			<table>
 				<thead>
-					<tr><td>Paladin Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Paladin Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>3rd</td><td><em>ensnaring strike, speak with animals</em></td></tr>
-				<tr><td>5th</td><td><em>moonbeam, misty step</em></td></tr>
-				<tr><td>9th</td><td><em>plant growth, protection from energy</em></td></tr>
-				<tr><td>13th</td><td><em>ice storm, stoneskin</em></td></tr>
-				<tr><td>17th</td><td><em>commune with nature, tree stride</em></td></tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>ensnaring strike, speak with animals</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>moonbeam, misty step</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>
+						<em>plant growth, protection from energy</em>
+					</td>
+				</tr>
+				<tr>
+					<td>13th</td>
+					<td>
+						<em>ice storm, stoneskin</em>
+					</td>
+				</tr>
+				<tr>
+					<td>17th</td>
+					<td>
+						<em>commune with nature, tree stride</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<sheet display="false" />
@@ -66,8 +106,14 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_OOTA_CHANNEL_DIVINITY</requirements>
 		<description>
 			<p>When you take this oath at 3rd level, you gain the following two Channel Divinity options.</p>
-			<p class="indent"><b><i>Nature’s Wrath.</i></b> You can use your Channel Divinity to invoke primeval forces to ensnare a foe. As an action, you can cause spectral vines to spring up and reach for a creature within 10 feet of you that you can see. The creature must succeed on a Strength or Dexterity saving throw (its choice) or be restrained. While restrained by the vines, the creature repeats the saving throw at the end of each of its turns. On a success, it frees itself and the vines vanish.</p>
-			<p class="indent"><b><i>Turn the Faithless.</i></b> You can use your Channel Divinity to utter ancient words that are painful for fey and fiends to hear. As an action, you present your holy symbol, and each fey or fiend within 30 feet of you that can hear you must make a Wisdom saving throw. On a failed save, the creature is turned for 1 minute or until it takes damage.</p>
+			<p class="indent">
+				<b>
+					<i>Nature’s Wrath.</i>
+				</b> You can use your Channel Divinity to invoke primeval forces to ensnare a foe. As an action, you can cause spectral vines to spring up and reach for a creature within 10 feet of you that you can see. The creature must succeed on a Strength or Dexterity saving throw (its choice) or be restrained. While restrained by the vines, the creature repeats the saving throw at the end of each of its turns. On a success, it frees itself and the vines vanish.</p>
+			<p class="indent">
+				<b>
+					<i>Turn the Faithless.</i>
+				</b> You can use your Channel Divinity to utter ancient words that are painful for fey and fiends to hear. As an action, you present your holy symbol, and each fey or fiend within 30 feet of you that can hear you must make a Wisdom saving throw. On a failed save, the creature is turned for 1 minute or until it takes damage.</p>
 			<p class="indent">A turned creature must spend its turns trying to move as far away from you as it can, and it can’t willingly move to a space within 30 feet of you. It also can’t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there’s nowhere to move, the creature can use the Dodge action.</p>
 			<p class="indent">If the creature’s true form is concealed by an illusion, shapeshifting, or other effect, that form is revealed while it is turned.</p>
 		</description>

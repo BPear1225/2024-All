@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-			<file name="rogue-assassin.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/archetypes/rogue-assassin.xml" />
+			<file name="rogue-assassin.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/players-handbook/archetypes/rogue-assassin.xml" />
 		</update>
 	</info>
 
@@ -81,7 +81,7 @@
 			<stat name="death strike:dc" value="dexterity:modifier" />
 		</rules>
 	</element>
-	
+
 	<!--Feature Replacement Grants-->
 	<element name="Bonus Proficiencies Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_ASSASSIN_BONUS_PROFICIENCIES" />
 	<element name="Assassinate Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_ROGUE_ASSASSIN_ASSASSINATE" />

@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-			<file name="wizard-abjuration.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/archetypes/wizard-abjuration.xml" />
+			<file name="wizard-abjuration.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/players-handbook/archetypes/wizard-abjuration.xml" />
 		</update>
 	</info>
 
@@ -83,7 +83,7 @@
 			You have resistance against the damage of spells.</description>
 		</sheet>
 	</element>
-	
+
 	<!--Feature Replacement Grants-->
 	<element name="Abjuration Savant Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_ABJURATION_ABJURATION_SAVANT" />
 	<element name="Arcane Ward Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_ABJURATION_ARCANE_WARD" />

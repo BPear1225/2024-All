@@ -5,7 +5,7 @@
 		<description>Criminal Background</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
 		<update version="0.0.8">
-			<file name="background-criminal.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/backgrounds/background-criminal.xml" />
+			<file name="background-criminal.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/players-handbook/backgrounds/background-criminal.xml" />
 		</update>
 	</info>
 
@@ -13,24 +13,54 @@
 		<description>
 			<p>You are an experienced criminal with a history of breaking the law. You have spent a lot of time among other criminals and still have contacts within the criminal underworld. You’re far closer than most people to the world of murder, theft, and violence that pervades the underbelly of civilization, and you have survived up to this point by flouting the rules and regulations of society.</p>
 			<ul class="unstyled">
-				<li><strong>Skill Proficiencies:</strong> Deception, Stealth</li>
-				<li><strong>Tool Proficiencies:</strong> One type of gaming set, thieves’ tools.</li>
-				<li><strong>Equipment:</strong> A crowbar, a set of dark common clothes including a hood, and a belt pouch containing 15 gp</li>
+				<li>
+					<strong>Skill Proficiencies:</strong> Deception, Stealth</li>
+				<li>
+					<strong>Tool Proficiencies:</strong> One type of gaming set, thieves’ tools.</li>
+				<li>
+					<strong>Equipment:</strong> A crowbar, a set of dark common clothes including a hood, and a belt pouch containing 15 gp</li>
 			</ul>
 			<h5>CRIMINAL SPECIALTY</h5>
 			<p>There are many kinds of criminals, and within a thieves’ guild or similar criminal organization, individual members have particular specialties. Even criminals who operate outside of such organizations have strong preferences for certain kinds of crimes over others. Choose the role you played in your criminal life, or roll on the table below.</p>
 			<table>
 				<thead>
-					<tr><td class="col-20">d8</td><td>Specialty</td></tr>
+					<tr>
+						<td class="col-20">d8</td>
+						<td>Specialty</td>
+					</tr>
 				</thead>
-				<tr><td>1</td><td>Blackmailer</td></tr>
-				<tr><td>2</td><td>Burglar</td></tr>
-				<tr><td>3</td><td>Enforcer</td></tr>
-				<tr><td>4</td><td>Fence</td></tr>
-				<tr><td>5</td><td>Highway robber</td></tr>
-				<tr><td>6</td><td>Hired killer</td></tr>
-				<tr><td>7</td><td>Pickpocket</td></tr>
-				<tr><td>8</td><td>Smuggler</td></tr>
+				<tr>
+					<td>1</td>
+					<td>Blackmailer</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Burglar</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Enforcer</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Fence</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>Highway robber</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>Hired killer</td>
+				</tr>
+				<tr>
+					<td>7</td>
+					<td>Pickpocket</td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>Smuggler</td>
+				</tr>
 			</table>
 			<div element="ID_BACKGROUND_FEATURE_CRIMINAL_CONTACT" />
 			<h5>SUGGESTED CHARACTERISTICS</h5>

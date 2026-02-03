@@ -5,7 +5,7 @@
 		<description></description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
 		<update version="0.1.0">
-			<file name="items-gear.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/items/items-gear.xml" />
+			<file name="items-gear.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/players-handbook/items/items-gear.xml" />
 		</update>
 	</info>
 
@@ -61,7 +61,7 @@
 		</description>
 		<setters>
 			<set name="category">Ammunition</set>
-			<set name="cost" currency="cp" bulk="50">2</set> 
+			<set name="cost" currency="cp" bulk="50">2</set>
 			<set name="weight" lb="0.02">1/50 lb.</set>
 			<set name="type">Ammunition</set>
 			<set name="stackable">true</set>

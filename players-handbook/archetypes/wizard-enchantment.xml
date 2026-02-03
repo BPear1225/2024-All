@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-			<file name="wizard-enchantment.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/archetypes/wizard-enchantment.xml" />
+			<file name="wizard-enchantment.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/players-handbook/archetypes/wizard-enchantment.xml" />
 		</update>
 	</info>
 
@@ -81,7 +81,7 @@
 			<stat name="alter memories:hours" value="charisma:modifier" bonus="base" />
 		</rules>
 	</element>
-	
+
 	<!--Feature Replacement Grants-->
 	<element name="Enchantment Savant Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_ENCHANTMENT_ENCHANTMENT_SAVANT" />
 	<element name="Hypnotic Gaze Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_ENCHANTMENT_HYPNOTIC_GAZE" />

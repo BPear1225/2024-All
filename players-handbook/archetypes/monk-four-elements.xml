@@ -3,7 +3,7 @@
 	<info>
 		<name></name>
 		<update version="0.0.1">
-			<file name="monk-four-elements.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/archetypes/monk-four-elements.xml" />
+			<file name="monk-four-elements.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/players-handbook/archetypes/monk-four-elements.xml" />
 		</update>
 	</info>
 
@@ -27,18 +27,44 @@
 			<p>When you choose this tradition at 3rd level, you learn magical disciplines that harness the power of the four elements. A discipline requires you to spend ki points each time you use it.</p>
 			<p class="indent">You know the Elemental Attunement discipline and one other elemental discipline of your choice, which are detailed in the “Elemental Disciplines” section below. You learn one additional elemental discipline of your choice at 6th, 11th, and 17th level.</p>
 			<p class="indent">Whenever you learn a new elemental discipline, you can also replace one elemental discipline that you already know with a different discipline.</p>
-			<p class="indent"><strong><em>Casting Elemental Spells.</em></strong> Some elemental disciplines allow you to cast spells. To cast one of these spells, you use its casting time and other rules, but you don’t need to provide material components for it.</p>
+			<p class="indent">
+				<strong>
+					<em>Casting Elemental Spells.</em>
+				</strong> Some elemental disciplines allow you to cast spells. To cast one of these spells, you use its casting time and other rules, but you don’t need to provide material components for it.</p>
 			<p class="indent">Once you reach 5th level in this class, you can spend additional ki points to increase the level of an elemental discipline spell that you cast, provided that the spell has an enhanced effect at a higher level, as burning hands does. The spell’s level increases by 1 for each additional ki point you spend. For example, if you are a 5th-level monk and use Sweeping Cinder Strike to cast burning hands, you can spend 3 ki points to cast it as a 2nd-level spell (the discipline’s base cost of 2 ki points plus 1).</p>
 			<p class="indent">The maximum number of ki points you can spend to cast a spell in this way (including its base ki point cost and any additional ki points you spend to increase its level) is determined by your monk level, as shown in the Spells and Ki Points table.</p>
 			<h5 class="caption">SPELLS AND KI POINTS</h5>
 			<table>
 				<thead>
-					<tr><td>Monk Levels</td><td>Maximum Ki Points for a Spell</td></tr>
+					<tr>
+						<td>Monk Levels</td>
+						<td>Maximum Ki Points for a Spell</td>
+					</tr>
 				</thead>
-				<tr><td>5th—8th</td><td><em>3</em></td></tr>
-				<tr><td>9th—12th</td><td><em>4</em></td></tr>
-				<tr><td>13th—16th</td><td><em>5</em></td></tr>
-				<tr><td>17th—20th</td><td><em>6</em></td></tr>
+				<tr>
+					<td>5th—8th</td>
+					<td>
+						<em>3</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th—12th</td>
+					<td>
+						<em>4</em>
+					</td>
+				</tr>
+				<tr>
+					<td>13th—16th</td>
+					<td>
+						<em>5</em>
+					</td>
+				</tr>
+				<tr>
+					<td>17th—20th</td>
+					<td>
+						<em>6</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<sheet usage="Ki">
@@ -77,7 +103,9 @@
 		<supports>Elemental Discipline</supports>
 		<requirements>[level:17]</requirements>
 		<description>
-			<p><em>Prerequisite: 17th level</em></p>
+			<p>
+				<em>Prerequisite: 17th level</em>
+			</p>
 			<p>You can spend 6 ki points to cast cone of cold.</p>
 			<div class="reference">
 				<div element="ID_PHB_SPELL_CONE_OF_COLD" />
@@ -95,7 +123,9 @@
 		<supports>Elemental Discipline</supports>
 		<requirements>[level:6]</requirements>
 		<description>
-			<p><em>Prerequisite: 6th level</em></p>
+			<p>
+				<em>Prerequisite: 6th level</em>
+			</p>
 			<p>You can spend 3 ki points to cast hold person.</p>
 			<div class="reference">
 				<div element="ID_PHB_SPELL_HOLD_PERSON" />
@@ -112,7 +142,9 @@
 		<supports>Elemental Discipline</supports>
 		<requirements>[level:17]</requirements>
 		<description>
-			<p><em>Prerequisite: 17th level</em></p>
+			<p>
+				<em>Prerequisite: 17th level</em>
+			</p>
 			<p>You can spend 5 ki points to cast stoneskin, targeting yourself.</p>
 			<div class="reference">
 				<div element="ID_PHB_SPELL_STONESKIN" />
@@ -162,7 +194,9 @@
 		<supports>Elemental Discipline</supports>
 		<requirements>[level:11]</requirements>
 		<description>
-			<p><em>Prerequisite: 11th level</em></p>
+			<p>
+				<em>Prerequisite: 11th level</em>
+			</p>
 			<p>You can spend 4 ki points to cast fireball.</p>
 			<div class="reference">
 				<div element="ID_PHB_SPELL_FIREBALL" />
@@ -179,7 +213,9 @@
 		<supports>Elemental Discipline</supports>
 		<requirements>[level:6]</requirements>
 		<description>
-			<p><em>Prerequisite: 6th level</em></p>
+			<p>
+				<em>Prerequisite: 6th level</em>
+			</p>
 			<p>You can spend 3 ki points to cast shatter.</p>
 			<div class="reference">
 				<div element="ID_PHB_SPELL_SHATTER" />
@@ -196,7 +232,9 @@
 		<supports>Elemental Discipline</supports>
 		<requirements>[level:11]</requirements>
 		<description>
-			<p><em>Prerequisite: 11th level</em></p>
+			<p>
+				<em>Prerequisite: 11th level</em>
+			</p>
 			<p>You can spend 4 ki points to cast gaseous form, targeting yourself.</p>
 			<div class="reference">
 				<div element="ID_PHB_SPELL_GASEOUS_FORM" />
@@ -213,7 +251,9 @@
 		<supports>Elemental Discipline</supports>
 		<requirements>[level:11]</requirements>
 		<description>
-			<p><em>Prerequisite: 11th level</em></p>
+			<p>
+				<em>Prerequisite: 11th level</em>
+			</p>
 			<p>You can spend 4 ki points to cast fly, targeting yourself.</p>
 			<div class="reference">
 				<div element="ID_PHB_SPELL_FLY" />
@@ -230,7 +270,9 @@
 		<supports>Elemental Discipline</supports>
 		<requirements>[level:17]</requirements>
 		<description>
-			<p><em>Prerequisite: 17th level</em></p>
+			<p>
+				<em>Prerequisite: 17th level</em>
+			</p>
 			<p>You can spend 5 ki points to cast wall of fire.</p>
 			<div class="reference">
 				<div element="ID_PHB_SPELL_WALL_OF_FIRE" />
@@ -295,7 +337,9 @@
 		<supports>Elemental Discipline</supports>
 		<requirements>[level:17]</requirements>
 		<description>
-			<p><em>Prerequisite: 17th level</em></p>
+			<p>
+				<em>Prerequisite: 17th level</em>
+			</p>
 			<p>You can spend 6 ki points to cast wall of stone.</p>
 			<div class="reference">
 				<div element="ID_PHB_SPELL_WALL_OF_STONE" />

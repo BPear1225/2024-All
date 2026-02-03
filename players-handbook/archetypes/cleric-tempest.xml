@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.2">
-			<file name="cleric-tempest.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/archetypes/cleric-tempest.xml" />
+			<file name="cleric-tempest.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/players-handbook/archetypes/cleric-tempest.xml" />
 		</update>
 	</info>
 
@@ -13,13 +13,41 @@
 			<h5 class="caption">TEMPEST DOMAIN SPELLS</h5>
 			<table>
 				<thead>
-					<tr><td>Cleric Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Cleric Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>1st</td><td><em>fog cloud, thunderwave</em></td></tr>
-				<tr><td>3rd</td><td><em>gust of wind, shatter</em></td></tr>
-				<tr><td>5th</td><td><em>call lightning, sleet storm</em></td></tr>
-				<tr><td>7th</td><td><em>control water, ice storm</em></td></tr>
-				<tr><td>9th</td><td><em>destructive wave, insect plague</em></td></tr>
+				<tr>
+					<td>1st</td>
+					<td>
+						<em>fog cloud, thunderwave</em>
+					</td>
+				</tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>gust of wind, shatter</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>call lightning, sleet storm</em>
+					</td>
+				</tr>
+				<tr>
+					<td>7th</td>
+					<td>
+						<em>control water, ice storm</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>
+						<em>destructive wave, insect plague</em>
+					</td>
+				</tr>
 			</table>
 			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_TEMPEST_DOMAIN_BONUS_PROFICIENCIES" />
 			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_TEMPEST_DOMAIN_WRATH_OF_THE_STORM" />
@@ -101,7 +129,7 @@
 		<description>
 			<p>At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 thunder damage to the target. When you reach 14th level, the extra damage increases to 2d8.</p>
 		</description>
-		<sheet>			
+		<sheet>
 			<description>Once on each of your turn +1d8 thunder damage with a weapon attack.</description>
 			<description level="14">Once on each of your turn +2d8 thunder damage with a weapon attack.</description>
 		</sheet>
@@ -115,7 +143,7 @@
 			<description>You have a flying speed of {{speed}} ft. whenever you are not underground or indoors.</description>
 		</sheet>
 	</element>
-	
+
 	<!--Feature Replacement Grants-->
 	<element name="Bonus Proficiencies Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_TEMPEST_DOMAIN_BONUS_PROFICIENCIES" />
 	<element name="Wrath of the Storm Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_TEMPEST_DOMAIN_WRATH_OF_THE_STORM" />

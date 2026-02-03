@@ -3,7 +3,7 @@
 	<info>
 		<name>Tiefling</name>
 		<update version="0.2.7">
-			<file name="race-tiefling.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/races/race-tiefling.xml" />
+			<file name="race-tiefling.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/players-handbook/races/race-tiefling.xml" />
 		</update>
 	</info>
 
@@ -18,22 +18,49 @@
 			<h4>TIEFLING NAMES</h4>
 			<p>Tiefling names fall into three broad categories. Tieflings born into another culture typically have names reflective of that culture. Some have names derived from the Infernal language, passed down through generations, that reflect their fiendish heritage. And some younger tieflings, striving to find a place in the world, adopt a name that signifies a virtue or other concept and then try to embody that concept. For some, the chosen name is a noble quest. For others, it’s a grim destiny.</p>
 			<ul class="unstyled">
-				<li><strong>Male Infernal Names:</strong> Akmenos, Amnon, Barakas, Damakos, Ekemon, Iados, Kairon, Leucis, Melech, Mordai, Morthos, Pelaios, Skamos, Therai</li>
-				<li><strong>Female Infernal Names:</strong> Akta, Anakis, Bryseis, Criella, Damaia, Ea, Kallista, Lerissa, Makaria, Nemeia, Orianna, Phelaia, Rieta</li>
-				<li><strong>“Virtue” Names:</strong> Art, Carrion, Chant, Creed, Despair, Excellence, Fear, Glory, Hope, Ideal, Music, Nowhere, Open, Poetry, Quest, Random, Reverence, Sorrow, Temerity, Torment, Weary</li>
+				<li>
+					<strong>Male Infernal Names:</strong> Akmenos, Amnon, Barakas, Damakos, Ekemon, Iados, Kairon, Leucis, Melech, Mordai, Morthos, Pelaios, Skamos, Therai</li>
+				<li>
+					<strong>Female Infernal Names:</strong> Akta, Anakis, Bryseis, Criella, Damaia, Ea, Kallista, Lerissa, Makaria, Nemeia, Orianna, Phelaia, Rieta</li>
+				<li>
+					<strong>“Virtue” Names:</strong> Art, Carrion, Chant, Creed, Despair, Excellence, Fear, Glory, Hope, Ideal, Music, Nowhere, Open, Poetry, Quest, Random, Reverence, Sorrow, Temerity, Torment, Weary</li>
 			</ul>
 			<h4>TIEFLING TRAITS</h4>
 			<p>Tieflings share certain racial traits as a result of their infernal descent.</p>
-			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Intelligence score increases by 1, and your Charisma score increases by 2.</p>
-			<p class="indent"><strong><em>Age.</em></strong> Tieflings mature at the same rate as humans but live a few years longer.</p>
+			<p class="indent">
+				<strong>
+					<em>Ability Score Increase.</em>
+				</strong> Your Intelligence score increases by 1, and your Charisma score increases by 2.</p>
+			<p class="indent">
+				<strong>
+					<em>Age.</em>
+				</strong> Tieflings mature at the same rate as humans but live a few years longer.</p>
 			<!-- (removed in Errata v3.0) -->
 			<!-- <p class="indent"><strong><em>Alignment.</em></strong> Tieflings might not have an innate tendency toward evil, but many of them end up there. Evil or not, an independent nature inclines many tieflings toward a chaotic alignment.</p> -->
-			<p class="indent"><strong><em>Size.</em></strong> Tieflings are about the same size and build as humans. Your size is Medium.</p>
-			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
-			<p class="indent"><strong><em>Darkvision.</em></strong> Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
-			<p class="indent"><strong><em>Hellish Resistance.</em></strong> You have resistance to fire damage.</p>
-			<p class="indent"><strong><em>Infernal Legacy.</em></strong> You know the thaumaturgy cantrip. Once you reach 3rd level, you can cast the hellish rebuke spell, as a 2nd-level spell, you must finish a long rest to cast the spell again with the trait. Once you reach 5th level, you can also cast the darkness spell, you must finish a long rest to cast the spell again with the trait. Charisma is your spellcasting ability for these spells.</p>
-			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and Infernal.</p>
+			<p class="indent">
+				<strong>
+					<em>Size.</em>
+				</strong> Tieflings are about the same size and build as humans. Your size is Medium.</p>
+			<p class="indent">
+				<strong>
+					<em>Speed.</em>
+				</strong> Your base walking speed is 30 feet.</p>
+			<p class="indent">
+				<strong>
+					<em>Darkvision.</em>
+				</strong> Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
+			<p class="indent">
+				<strong>
+					<em>Hellish Resistance.</em>
+				</strong> You have resistance to fire damage.</p>
+			<p class="indent">
+				<strong>
+					<em>Infernal Legacy.</em>
+				</strong> You know the thaumaturgy cantrip. Once you reach 3rd level, you can cast the hellish rebuke spell, as a 2nd-level spell, you must finish a long rest to cast the spell again with the trait. Once you reach 5th level, you can also cast the darkness spell, you must finish a long rest to cast the spell again with the trait. Charisma is your spellcasting ability for these spells.</p>
+			<p class="indent">
+				<strong>
+					<em>Languages.</em>
+				</strong> You can speak, read, and write Common and Infernal.</p>
 		</description>
 		<sheet display="false" />
 		<setters>

@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.2">
-			<file name="wizard-divination.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/archetypes/wizard-divination.xml" />
+			<file name="wizard-divination.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/players-handbook/archetypes/wizard-divination.xml" />
 		</update>
 	</info>
 
@@ -63,10 +63,22 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_DIVINATION_THE_THIRD_EYE</requirements>
 		<description>
 			<p>Starting at 10th level, you can use your action to increase your powers of perception. When you do so, choose one of the following benefits, which lasts until you are incapacitated or you take a short or long rest. You can’t use the feature again until you finish a rest.</p>
-			<p class="indent"><strong><em>Darkvision.</em></strong> You gain darkvision out to a range of 60 feet.</p>
-			<p class="indent"><strong><em>Ethereal Sight.</em></strong> You can see into the Ethereal Plane within 60 feet of you.</p>
-			<p class="indent"><strong><em>Greater Comprehension.</em></strong> You can read any language.</p>
-			<p class="indent"><strong><em>See Invisibility.</em></strong> You can see invisible creatures and objects within 10 feet of you that are within line of sight.</p>
+			<p class="indent">
+				<strong>
+					<em>Darkvision.</em>
+				</strong> You gain darkvision out to a range of 60 feet.</p>
+			<p class="indent">
+				<strong>
+					<em>Ethereal Sight.</em>
+				</strong> You can see into the Ethereal Plane within 60 feet of you.</p>
+			<p class="indent">
+				<strong>
+					<em>Greater Comprehension.</em>
+				</strong> You can read any language.</p>
+			<p class="indent">
+				<strong>
+					<em>See Invisibility.</em>
+				</strong> You can see invisible creatures and objects within 10 feet of you that are within line of sight.</p>
 		</description>
 		<sheet action="Action" usage="1/Short Rest">
 			<description>Choose one of the following benefits, which lasts until you are incapacitated or you take a short or long rest. &#13;
@@ -86,7 +98,7 @@
 			<description>You roll three d20s for your Portent feature, rather than two.</description>
 		</sheet>
 	</element>
-	
+
 	<!--Feature Replacement Grants-->
 	<element name="Divination Savant Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_DIVINATION_DIVINATION_SAVANT" />
 	<element name="Portent Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_DIVINATION_PORTENT" />

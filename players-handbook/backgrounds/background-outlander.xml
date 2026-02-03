@@ -5,7 +5,7 @@
 		<description></description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
 		<update version="0.0.5">
-			<file name="background-outlander.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/backgrounds/background-outlander.xml" />
+			<file name="background-outlander.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/players-handbook/backgrounds/background-outlander.xml" />
 		</update>
 	</info>
 
@@ -13,27 +13,64 @@
 		<description>
 			<p>You grew up in the wilds, far from civilization and the comforts of town and technology. You’ve witnessed the migration of herds larger than forests, survived weather more extreme than any city-dweller could comprehend, and enjoyed the solitude of being the only thinking creature for miles in any direction. The wilds are in your blood, whether you were a nomad, an explorer, a recluse, a hunter-gatherer, or even a marauder. Even in places where you don’t know the specific features of the terrain, you know the ways of the wild.</p>
 			<ul class="unstyled">
-				<li><strong>Skill Proficiencies:</strong> Athletics, Survival</li>
-				<li><strong>Tool Proficiencies:</strong> One type of musical instrument</li>
-				<li><strong>Languages:</strong> One of your choice</li>
-				<li><strong>Equipment:</strong> A staff, a hunting trap, a trophy from an animal you killed, a set of traveler’s clothes, and a belt pouch containing 10 gp</li>
+				<li>
+					<strong>Skill Proficiencies:</strong> Athletics, Survival</li>
+				<li>
+					<strong>Tool Proficiencies:</strong> One type of musical instrument</li>
+				<li>
+					<strong>Languages:</strong> One of your choice</li>
+				<li>
+					<strong>Equipment:</strong> A staff, a hunting trap, a trophy from an animal you killed, a set of traveler’s clothes, and a belt pouch containing 10 gp</li>
 			</ul>
 			<h5>Origin</h5>
 			<p>You’ve been to strange places and seen things that others cannot begin to fathom. Consider some of the distant lands you have visited, and how they impacted you. You can roll on the following table to determine your occupation during your time in the wild, or choose one that best fits your character.</p>
 			<table>
 				<thead>
-					<tr><td class="col-10">d10</td><td>Origin</td></tr>
+					<tr>
+						<td class="col-10">d10</td>
+						<td>Origin</td>
+					</tr>
 				</thead>
-				<tr><td>1</td><td>Forester</td></tr>
-				<tr><td>2</td><td>Trapper</td></tr>
-				<tr><td>3</td><td>Homesteader</td></tr>
-				<tr><td>4</td><td>Guide</td></tr>
-				<tr><td>5</td><td>Exile or outcast</td></tr>
-				<tr><td>6</td><td>Bounty hunter</td></tr>
-				<tr><td>7</td><td>Pilgrim</td></tr>
-				<tr><td>8</td><td>Tribal nomad</td></tr>
-				<tr><td>9</td><td>Hunter-gatherer</td></tr>
-				<tr><td>10</td><td>Tribal marauder</td></tr>
+				<tr>
+					<td>1</td>
+					<td>Forester</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Trapper</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Homesteader</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Guide</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>Exile or outcast</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>Bounty hunter</td>
+				</tr>
+				<tr>
+					<td>7</td>
+					<td>Pilgrim</td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>Tribal nomad</td>
+				</tr>
+				<tr>
+					<td>9</td>
+					<td>Hunter-gatherer</td>
+				</tr>
+				<tr>
+					<td>10</td>
+					<td>Tribal marauder</td>
+				</tr>
 			</table>
 			<div element="ID_BACKGROUND_FEATURE_WANDERER" />
 			<h5>Suggested Characteristics</h5>

@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-			<file name="bard-valor.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/archetypes/bard-valor.xml" />
+			<file name="bard-valor.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/players-handbook/archetypes/bard-valor.xml" />
 		</update>
 	</info>
 
@@ -68,10 +68,10 @@
 			<description>When you use your action to cast a bard spell, you can make one weapon attack.</description>
 		</sheet>
 	</element>
-	
+
 	<!--Feature Replacement Grants-->
 	<element name="Bonus Proficiencies Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_BARD_VALOR_BONUS_PROFICIENCIES" />
 	<element name="Combat Inspiration Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_BARD_VALOR_COMBAT_INSPIRATION" />
 	<element name="Extra Attack Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_BARD_VALOR_EXTRA_ATTACK" />
-	<element name="Battle Magic Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_BARD_VALOR_BATTLE_MAGIC" />	
+	<element name="Battle Magic Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_BARD_VALOR_BATTLE_MAGIC" />
 </elements>

@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-			<file name="warlock-great-old-one.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/archetypes/warlock-great-old-one.xml" />
+			<file name="warlock-great-old-one.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/players-handbook/archetypes/warlock-great-old-one.xml" />
 		</update>
 	</info>
 
@@ -35,13 +35,41 @@
 			<h5 class="caption">GREAT OLD ONE EXPANDED SPELLS</h5>
 			<table>
 				<thead>
-					<tr><td>Spell Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Spell Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>1st</td><td><em>dissonant whispers, Tasha's hideous laughter</em></td></tr>
-				<tr><td>2nd</td><td><em>detect thoughts, phantasmal force</em></td></tr>
-				<tr><td>3rd</td><td><em>clairvoyance, sending</em></td></tr>
-				<tr><td>4th</td><td><em>dominate beast, Evard’s black tentacles</em></td></tr>
-				<tr><td>5th</td><td><em>dominate person, telekinesis</em></td></tr>
+				<tr>
+					<td>1st</td>
+					<td>
+						<em>dissonant whispers, Tasha's hideous laughter</em>
+					</td>
+				</tr>
+				<tr>
+					<td>2nd</td>
+					<td>
+						<em>detect thoughts, phantasmal force</em>
+					</td>
+				</tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>clairvoyance, sending</em>
+					</td>
+				</tr>
+				<tr>
+					<td>4th</td>
+					<td>
+						<em>dominate beast, Evard’s black tentacles</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>dominate person, telekinesis</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<sheet display="false">

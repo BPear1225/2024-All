@@ -3,7 +3,7 @@
 	<info>
 		<name>Languages</name>
 		<update version="0.0.1">
-			<file name="languages.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/languages.xml" />
+			<file name="languages.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/players-handbook/languages.xml" />
 		</update>
 	</info>
 
@@ -198,7 +198,7 @@
 			<set name="secret">true</set>
 			<set name="speakers">Druids</set>
 		</setters>
-	</element>  
+	</element>
 	<element name="Thieves’ Cant" type="Language" source="Player’s Handbook" id="ID_WOTC_PHB_LANGUAGE_THIEVES_CANT">
 		<supports>Secret</supports>
 		<description>
@@ -208,5 +208,5 @@
 			<set name="secret">true</set>
 			<set name="speakers">Rogues</set>
 		</setters>
-	</element>	
+	</element>
 </elements>

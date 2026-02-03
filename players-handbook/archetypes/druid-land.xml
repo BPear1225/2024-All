@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.2">
-			<file name="druid-land.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/archetypes/druid-land.xml" />
+			<file name="druid-land.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/players-handbook/archetypes/druid-land.xml" />
 		</update>
 	</info>
 
@@ -67,7 +67,7 @@
 			<p class="indent">In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the entangle spell.</p>
 		</description>
 		<sheet>
-			<description>Moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard. 
+			<description>Moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.
 			You have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the entangle spell.</description>
 		</sheet>
 	</element>
@@ -98,12 +98,35 @@
 			<p class="indent">Once you gain access to a circle spell, you always have it prepared, and it doesn’t count against the number of spells you can prepare each day. If you gain access to a spell that doesn’t appear on the druid spell list, the spell is nonetheless a druid spell for you.</p>
 			<table>
 				<thead>
-					<tr><td>Druid Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Druid Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>3rd</td><td><em>hold person, spike growth</em></td></tr>
-				<tr><td>5th</td><td><em>sleet storm, slow</em></td></tr>
-				<tr><td>7th</td><td><em>freedom of movement, ice storm</em></td></tr>
-				<tr><td>9th</td><td><em>commune with nature, cone of cold</em></td></tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>hold person, spike growth</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>sleet storm, slow</em>
+					</td>
+				</tr>
+				<tr>
+					<td>7th</td>
+					<td>
+						<em>freedom of movement, ice storm</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>
+						<em>commune with nature, cone of cold</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<sheet display="false" />
@@ -125,12 +148,35 @@
 			<p class="indent">Once you gain access to a circle spell, you always have it prepared, and it doesn’t count against the number of spells you can prepare each day. If you gain access to a spell that doesn’t appear on the druid spell list, the spell is nonetheless a druid spell for you.</p>
 			<table>
 				<thead>
-					<tr><td>Druid Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Druid Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>3rd</td><td><em>mirror image, misty step</em></td></tr>
-				<tr><td>5th</td><td><em>water breathing, water walk</em></td></tr>
-				<tr><td>7th</td><td><em>control water, freedom of movement</em></td></tr>
-				<tr><td>9th</td><td><em>conjure elemental, scrying</em></td></tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>mirror image, misty step</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>water breathing, water walk</em>
+					</td>
+				</tr>
+				<tr>
+					<td>7th</td>
+					<td>
+						<em>control water, freedom of movement</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>
+						<em>conjure elemental, scrying</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<sheet display="false" />
@@ -152,12 +198,35 @@
 			<p class="indent">Once you gain access to a circle spell, you always have it prepared, and it doesn’t count against the number of spells you can prepare each day. If you gain access to a spell that doesn’t appear on the druid spell list, the spell is nonetheless a druid spell for you.</p>
 			<table>
 				<thead>
-					<tr><td>Druid Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Druid Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>3rd</td><td><em>blur, silence</em></td></tr>
-				<tr><td>5th</td><td><em>create food and water, protection from energy</em></td></tr>
-				<tr><td>7th</td><td><em>blight, hallucinatory terrain</em></td></tr>
-				<tr><td>9th</td><td><em>insect plague, wall of stone</em></td></tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>blur, silence</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>create food and water, protection from energy</em>
+					</td>
+				</tr>
+				<tr>
+					<td>7th</td>
+					<td>
+						<em>blight, hallucinatory terrain</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>
+						<em>insect plague, wall of stone</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<sheet display="false" />
@@ -179,12 +248,35 @@
 			<p class="indent">Once you gain access to a circle spell, you always have it prepared, and it doesn’t count against the number of spells you can prepare each day. If you gain access to a spell that doesn’t appear on the druid spell list, the spell is nonetheless a druid spell for you.</p>
 			<table>
 				<thead>
-					<tr><td>Druid Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Druid Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>3rd</td><td><em>barkskin, spider climb</em></td></tr>
-				<tr><td>5th</td><td><em>call lightning, plant growth</em></td></tr>
-				<tr><td>7th</td><td><em>divination, freedom of movement</em></td></tr>
-				<tr><td>9th</td><td><em>commune with nature, tree stride</em></td></tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>barkskin, spider climb</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>call lightning, plant growth</em>
+					</td>
+				</tr>
+				<tr>
+					<td>7th</td>
+					<td>
+						<em>divination, freedom of movement</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>
+						<em>commune with nature, tree stride</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<sheet display="false" />
@@ -206,12 +298,35 @@
 			<p class="indent">Once you gain access to a circle spell, you always have it prepared, and it doesn’t count against the number of spells you can prepare each day. If you gain access to a spell that doesn’t appear on the druid spell list, the spell is nonetheless a druid spell for you.</p>
 			<table>
 				<thead>
-					<tr><td>Druid Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Druid Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>3rd</td><td><em>invisibility, pass without trace</em></td></tr>
-				<tr><td>5th</td><td><em>daylight, haste</em></td></tr>
-				<tr><td>7th</td><td><em>divination, freedom of movement</em></td></tr>
-				<tr><td>9th</td><td><em>dream, insect plague</em></td></tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>invisibility, pass without trace</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>daylight, haste</em>
+					</td>
+				</tr>
+				<tr>
+					<td>7th</td>
+					<td>
+						<em>divination, freedom of movement</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>
+						<em>dream, insect plague</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<sheet display="false" />
@@ -233,12 +348,35 @@
 			<p class="indent">Once you gain access to a circle spell, you always have it prepared, and it doesn’t count against the number of spells you can prepare each day. If you gain access to a spell that doesn’t appear on the druid spell list, the spell is nonetheless a druid spell for you.</p>
 			<table>
 				<thead>
-					<tr><td>Druid Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Druid Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>3rd</td><td><em>spider climb, spike growth</em></td></tr>
-				<tr><td>5th</td><td><em>lightning bolt, meld into stone</em></td></tr>
-				<tr><td>7th</td><td><em>stone shape, stoneskin</em></td></tr>
-				<tr><td>9th</td><td><em>passwall, wall of stone</em></td></tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>spider climb, spike growth</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>lightning bolt, meld into stone</em>
+					</td>
+				</tr>
+				<tr>
+					<td>7th</td>
+					<td>
+						<em>stone shape, stoneskin</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>
+						<em>passwall, wall of stone</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<rules>
@@ -259,12 +397,35 @@
 			<p class="indent">Once you gain access to a circle spell, you always have it prepared, and it doesn’t count against the number of spells you can prepare each day. If you gain access to a spell that doesn’t appear on the druid spell list, the spell is nonetheless a druid spell for you.</p>
 			<table>
 				<thead>
-					<tr><td>Druid Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Druid Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>3rd</td><td><em>Melf’s acid arrow, darkness</em></td></tr>
-				<tr><td>5th</td><td><em>water walk, stinking cloud</em></td></tr>
-				<tr><td>7th</td><td><em>freedom of movement, locate creature</em></td></tr>
-				<tr><td>9th</td><td><em>insect plague, scrying</em></td></tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>Melf’s acid arrow, darkness</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>water walk, stinking cloud</em>
+					</td>
+				</tr>
+				<tr>
+					<td>7th</td>
+					<td>
+						<em>freedom of movement, locate creature</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>
+						<em>insect plague, scrying</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<sheet display="false" />
@@ -286,12 +447,35 @@
 			<p class="indent">Once you gain access to a circle spell, you always have it prepared, and it doesn’t count against the number of spells you can prepare each day. If you gain access to a spell that doesn’t appear on the druid spell list, the spell is nonetheless a druid spell for you.</p>
 			<table>
 				<thead>
-					<tr><td>Druid Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Druid Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>3rd</td><td><em>spider climb, web</em></td></tr>
-				<tr><td>5th</td><td><em>gaseous form, stinking cloud</em></td></tr>
-				<tr><td>7th</td><td><em>greater invisibility, stone shape</em></td></tr>
-				<tr><td>9th</td><td><em>cloudkill, insect plague</em></td></tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>spider climb, web</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>gaseous form, stinking cloud</em>
+					</td>
+				</tr>
+				<tr>
+					<td>7th</td>
+					<td>
+						<em>greater invisibility, stone shape</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>
+						<em>cloudkill, insect plague</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<rules>
@@ -305,7 +489,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_INSECT_PLAGUE" level="9" spellcasting="Druid" prepared="true" />
 		</rules>
 	</element>
-	
+
 	<!--Feature Replacement Grants-->
 	<element name="Land Druid Bonus Cantrip Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_CIRCLE_LAND_BONUS_CANTRIP" />
 	<element name="Natural Recovery Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_CIRCLE_LAND_NATURAL_RECOVERY" />

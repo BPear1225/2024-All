@@ -5,7 +5,7 @@
 		<description>The Paladin class from the Player’s Handbook.</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
 		<update version="0.3.3">
-			<file name="class-paladin.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/classes/class-paladin.xml" />
+			<file name="class-paladin.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/players-handbook/classes/class-paladin.xml" />
 		</update>
 	</info>
 
@@ -28,55 +28,234 @@
 			<p>You can make a paladin quickly by following these suggestions. First, Strength should be your highest ability score, followed by Charisma. Second, choose the noble background.</p>
 			<h3>CLASS FEATURES</h3>
 			<p>As a paladin, you gain the following class features.</p>
-            <h5>HIT POINTS</h5>
-            <ul class="unstyled">
-                <li><strong>Hit Dice:</strong> 1d10 per paladin level</li>
-                <li><strong>Hit Points at 1st Level:</strong> 10 + your Constitution modifier</li>
-                <li><strong>Hit Points at Higher Levels:</strong> 1d10 (or 6) + your Constitution modifier per paladin level after 1st</li>
-            </ul>
-            <h5>PROFICIENCIES</h5>
-            <ul class="unstyled mb">
-                <li><strong>Armor:</strong> All armor, shields</li>
-                <li><strong>Weapons:</strong> Simple weapons, martial weapons</li>
-                <li><strong>Tools:</strong> None</li>
-            </ul>
-            <ul class="unstyled">
-                <li><strong>Saving Throws:</strong> Wisdom, Charisma</li>
-                <li><strong>Skills:</strong> Choose two skills from Athletics, Insight, Intimidation, Medicine, Persuasion, and Religion</li>
-            </ul>
+			<h5>HIT POINTS</h5>
+			<ul class="unstyled">
+				<li>
+					<strong>Hit Dice:</strong> 1d10 per paladin level</li>
+				<li>
+					<strong>Hit Points at 1st Level:</strong> 10 + your Constitution modifier</li>
+				<li>
+					<strong>Hit Points at Higher Levels:</strong> 1d10 (or 6) + your Constitution modifier per paladin level after 1st</li>
+			</ul>
+			<h5>PROFICIENCIES</h5>
+			<ul class="unstyled mb">
+				<li>
+					<strong>Armor:</strong> All armor, shields</li>
+				<li>
+					<strong>Weapons:</strong> Simple weapons, martial weapons</li>
+				<li>
+					<strong>Tools:</strong> None</li>
+			</ul>
+			<ul class="unstyled">
+				<li>
+					<strong>Saving Throws:</strong> Wisdom, Charisma</li>
+				<li>
+					<strong>Skills:</strong> Choose two skills from Athletics, Insight, Intimidation, Medicine, Persuasion, and Religion</li>
+			</ul>
 			<h5>EQUIPMENT</h5>
 			<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
 			<ul>
-				<li><i>(a)</i> a martial weapon and a shield or <i>(b)</i> two martial weapons</li>
-				<li><i>(a)</i> five javelins or <i>(b)</i> any simple melee weapon</li>
-				<li><i>(a)</i> a priest’s pack or <i>(b)</i> an explorer’s pack</li>
+				<li>
+					<i>(a)</i> a martial weapon and a shield or <i>(b)</i> two martial weapons</li>
+				<li>
+					<i>(a)</i> five javelins or <i>(b)</i> any simple melee weapon</li>
+				<li>
+					<i>(a)</i> a priest’s pack or <i>(b)</i> an explorer’s pack</li>
 				<li>Chain mail and a holy symbol</li>
 			</ul>
 			<h5 class="caption">THE PALADIN</h5>
 			<table class="class-features">
 				<thead>
-					<tr><td class="col-5">Level</td><td class="col-60 left">Features</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td></tr>
+					<tr>
+						<td class="col-5">Level</td>
+						<td class="col-60 left">Features</td>
+						<td>1st</td>
+						<td>2nd</td>
+						<td>3rd</td>
+						<td>4th</td>
+						<td>5th</td>
+					</tr>
 				</thead>
-				<tr><td> 1st</td><td class="left">Divine Sense, Lay on Hands</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 2nd</td><td class="left">Fighting Style, Spellcasting, Divine Smite</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 3rd</td><td class="left">Divine Health, Sacred Oath</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 4th</td><td class="left">Ability Score Improvement</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 5th</td><td class="left">Extra Attack</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 6th</td><td class="left">Aura of Protection</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 7th</td><td class="left">Sacred Oath feature</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 8th</td><td class="left">Ability Score Improvement</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 9th</td><td class="left">—</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
-				<tr><td>10th</td><td class="left">Aura of Courage</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
-				<tr><td>11th</td><td class="left">Improved Divine Smite</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
-				<tr><td>12th</td><td class="left">Ability Score Improvement</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
-				<tr><td>13th</td><td class="left">—</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
-				<tr><td>14th</td><td class="left">Cleansing Touch</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
-				<tr><td>15th</td><td class="left">Sacred Oath feature</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
-				<tr><td>16th</td><td class="left">Ability Score Improvement</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
-				<tr><td>17th</td><td class="left">—</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
-				<tr><td>18th</td><td class="left">Aura improvements</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
-				<tr><td>19th</td><td class="left">Ability Score Improvement</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
-				<tr><td>20th</td><td class="left">Sacred Oath feature</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+				<tr>
+					<td> 1st</td>
+					<td class="left">Divine Sense, Lay on Hands</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 2nd</td>
+					<td class="left">Fighting Style, Spellcasting, Divine Smite</td>
+					<td>2</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 3rd</td>
+					<td class="left">Divine Health, Sacred Oath</td>
+					<td>3</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 4th</td>
+					<td class="left">Ability Score Improvement</td>
+					<td>3</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 5th</td>
+					<td class="left">Extra Attack</td>
+					<td>4</td>
+					<td>2</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 6th</td>
+					<td class="left">Aura of Protection</td>
+					<td>4</td>
+					<td>2</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 7th</td>
+					<td class="left">Sacred Oath feature</td>
+					<td>4</td>
+					<td>3</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 8th</td>
+					<td class="left">Ability Score Improvement</td>
+					<td>4</td>
+					<td>3</td>
+					<td>—</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td> 9th</td>
+					<td class="left">—</td>
+					<td>4</td>
+					<td>3</td>
+					<td>2</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>10th</td>
+					<td class="left">Aura of Courage</td>
+					<td>4</td>
+					<td>3</td>
+					<td>2</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>11th</td>
+					<td class="left">Improved Divine Smite</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>12th</td>
+					<td class="left">Ability Score Improvement</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>—</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>13th</td>
+					<td class="left">—</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>1</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>14th</td>
+					<td class="left">Cleansing Touch</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>1</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>15th</td>
+					<td class="left">Sacred Oath feature</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>16th</td>
+					<td class="left">Ability Score Improvement</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+					<td>—</td>
+				</tr>
+				<tr>
+					<td>17th</td>
+					<td class="left">—</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>1</td>
+				</tr>
+				<tr>
+					<td>18th</td>
+					<td class="left">Aura improvements</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>1</td>
+				</tr>
+				<tr>
+					<td>19th</td>
+					<td class="left">Ability Score Improvement</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+				</tr>
+				<tr>
+					<td>20th</td>
+					<td class="left">Sacred Oath feature</td>
+					<td>4</td>
+					<td>3</td>
+					<td>3</td>
+					<td>3</td>
+					<td>2</td>
+				</tr>
 			</table>
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_DIVINE_SENSE" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_LAY_ON_HANDS" />
@@ -162,7 +341,7 @@
 			<p class="indent">This feature has no effect on undead and constructs.</p>
 		</description>
 		<sheet action="Action" usage="{{lay on hands:hp pool}}/Long Rest">
-			<description>You can touch a creature and draw power from the pool to restore a number of hp to that creature, up to the maximum amount remaining in your pool. 
+			<description>You can touch a creature and draw power from the pool to restore a number of hp to that creature, up to the maximum amount remaining in your pool.
 			You can expend 5 hp from your pool of healing to cure the target of one disease or neutralize one poison affecting it.
 			This feature has no effect on undead and constructs.</description>
 		</sheet>
@@ -203,8 +382,10 @@
 			<h5>SPELLCASTING ABILITY</h5>
 			<p>Charisma is your spellcasting ability for your paladin spells, since their power derives from the strength of your convictions. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a paladin spell you cast and when making an attack roll with one.</p>
 			<center>
-				<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Charisma modifier</p>
-				<p><strong>Spell attack modifier</strong> = your proficiency bonus + your Charisma modifier</p>
+				<p>
+					<strong>Spell save DC</strong> = 8 + your proficiency bonus + your Charisma modifier</p>
+				<p>
+					<strong>Spell attack modifier</strong> = your proficiency bonus + your Charisma modifier</p>
 			</center>
 			<h5>SPELLCASTING FOCUS</h5>
 			<p>You can use a holy symbol (found in chapter 5) as a spellcasting focus for your paladin spells.</p>

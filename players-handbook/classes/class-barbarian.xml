@@ -5,7 +5,7 @@
 		<description>The Barbarian class from the Player’s Handbook.</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
 		<update version="0.2.6">
-			<file name="class-barbarian.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/classes/class-barbarian.xml" />
+			<file name="class-barbarian.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/players-handbook/classes/class-barbarian.xml" />
 		</update>
 	</info>
 
@@ -31,52 +31,167 @@
 			<p>As a barbarian, you gain the following class features.</p>
 			<h5 class="caption">HIT POINTS</h5>
 			<ul class="unstyled">
-				<li><strong>Hit Dice:</strong> 1d12 per barbarian level</li>
-				<li><strong>Hit Points at 1st Level:</strong> 12 + your Constitution modifier</li>
-				<li><strong>Hit Points at Higher Levels:</strong> 1d12 (or 7) + your Constitution modifier per barbarian level after 1st</li>
+				<li>
+					<strong>Hit Dice:</strong> 1d12 per barbarian level</li>
+				<li>
+					<strong>Hit Points at 1st Level:</strong> 12 + your Constitution modifier</li>
+				<li>
+					<strong>Hit Points at Higher Levels:</strong> 1d12 (or 7) + your Constitution modifier per barbarian level after 1st</li>
 			</ul>
 			<h5 class="caption">PROFICIENCIES</h5>
 			<ul class="unstyled mb">
-				<li><strong>Armor:</strong> Light armor, medium armor, shields</li>
-				<li><strong>Weapons:</strong> Simple weapons, martial weapons</li>
-				<li><strong>Tools:</strong> None</li>
+				<li>
+					<strong>Armor:</strong> Light armor, medium armor, shields</li>
+				<li>
+					<strong>Weapons:</strong> Simple weapons, martial weapons</li>
+				<li>
+					<strong>Tools:</strong> None</li>
 			</ul>
 			<ul class="unstyled">
-				<li><strong>Saving Throws:</strong> Strength, Constitution</li>
-				<li><strong>Skills:</strong> Choose two from Animal Handling, Athletics, Intimidation, Nature, Perception, and Survival</li>
+				<li>
+					<strong>Saving Throws:</strong> Strength, Constitution</li>
+				<li>
+					<strong>Skills:</strong> Choose two from Animal Handling, Athletics, Intimidation, Nature, Perception, and Survival</li>
 			</ul>
 			<h5 class="caption">EQUIPMENT</h5>
 			<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
 			<ul>
-				<li><i>(a)</i> a greataxe or <i>(b)</i> any martial melee weapon</li>
-				<li><i>(a)</i> two handaxes or <i>(b)</i> any simple weapon</li>
+				<li>
+					<i>(a)</i> a greataxe or <i>(b)</i> any martial melee weapon</li>
+				<li>
+					<i>(a)</i> two handaxes or <i>(b)</i> any simple weapon</li>
 				<li>An explorer’s pack and four javelins</li>
 			</ul>
 			<h5 class="caption">THE BARBARIAN</h5>
 			<table class="class-features">
 				<thead>
-					<tr><td class="col-10">Level</td><td>Rages</td><td>Rage Damage</td><td class="col-60 left">Features</td></tr>
+					<tr>
+						<td class="col-10">Level</td>
+						<td>Rages</td>
+						<td>Rage Damage</td>
+						<td class="col-60 left">Features</td>
+					</tr>
 				</thead>
-				<tr><td>1st</td><td>2</td><td>+2</td><td class="left">Rage, Unarmored Defense</td></tr>
-				<tr><td>2nd</td><td>2</td><td>+2</td><td class="left">Reckless Attack, Danger Sense</td></tr>
-				<tr><td>3rd</td><td>3</td><td>+2</td><td class="left">Primal Path</td></tr>
-				<tr><td>4th</td><td>3</td><td>+2</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>5th</td><td>3</td><td>+2</td><td class="left">Extra Attack, Fast Movement</td></tr>
-				<tr><td>6th</td><td>4</td><td>+2</td><td class="left">Path feature</td></tr>
-				<tr><td>7th</td><td>4</td><td>+2</td><td class="left">Feral Instinct</td></tr>
-				<tr><td>8th</td><td>4</td><td>+2</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>9th</td><td>4</td><td>+3</td><td class="left">Brutal Critical (1 die)</td></tr>
-				<tr><td>10th</td><td>4</td><td>+3</td><td class="left">Path feature</td></tr>
-				<tr><td>11th</td><td>4</td><td>+3</td><td class="left">Relentless Rage</td></tr>
-				<tr><td>12th</td><td>5</td><td>+3</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>13th</td><td>5</td><td>+3</td><td class="left">Brutal Critical (2 dice)</td></tr>
-				<tr><td>14th</td><td>5</td><td>+3</td><td class="left">Path feature</td></tr>
-				<tr><td>15th</td><td>5</td><td>+3</td><td class="left">Persistent Rage</td></tr>
-				<tr><td>16th</td><td>5</td><td>+4</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>17th</td><td>6</td><td>+4</td><td class="left">Brutal Critical (3 dice)</td></tr>
-				<tr><td>18th</td><td>6</td><td>+4</td><td class="left">Indomitable Might</td></tr>
-				<tr><td>19th</td><td>6</td><td>+4</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>20th</td><td>Unlimited</td><td>+4</td><td class="left">Primal Champion</td></tr>
+				<tr>
+					<td>1st</td>
+					<td>2</td>
+					<td>+2</td>
+					<td class="left">Rage, Unarmored Defense</td>
+				</tr>
+				<tr>
+					<td>2nd</td>
+					<td>2</td>
+					<td>+2</td>
+					<td class="left">Reckless Attack, Danger Sense</td>
+				</tr>
+				<tr>
+					<td>3rd</td>
+					<td>3</td>
+					<td>+2</td>
+					<td class="left">Primal Path</td>
+				</tr>
+				<tr>
+					<td>4th</td>
+					<td>3</td>
+					<td>+2</td>
+					<td class="left">Ability Score Improvement</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>3</td>
+					<td>+2</td>
+					<td class="left">Extra Attack, Fast Movement</td>
+				</tr>
+				<tr>
+					<td>6th</td>
+					<td>4</td>
+					<td>+2</td>
+					<td class="left">Path feature</td>
+				</tr>
+				<tr>
+					<td>7th</td>
+					<td>4</td>
+					<td>+2</td>
+					<td class="left">Feral Instinct</td>
+				</tr>
+				<tr>
+					<td>8th</td>
+					<td>4</td>
+					<td>+2</td>
+					<td class="left">Ability Score Improvement</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>4</td>
+					<td>+3</td>
+					<td class="left">Brutal Critical (1 die)</td>
+				</tr>
+				<tr>
+					<td>10th</td>
+					<td>4</td>
+					<td>+3</td>
+					<td class="left">Path feature</td>
+				</tr>
+				<tr>
+					<td>11th</td>
+					<td>4</td>
+					<td>+3</td>
+					<td class="left">Relentless Rage</td>
+				</tr>
+				<tr>
+					<td>12th</td>
+					<td>5</td>
+					<td>+3</td>
+					<td class="left">Ability Score Improvement</td>
+				</tr>
+				<tr>
+					<td>13th</td>
+					<td>5</td>
+					<td>+3</td>
+					<td class="left">Brutal Critical (2 dice)</td>
+				</tr>
+				<tr>
+					<td>14th</td>
+					<td>5</td>
+					<td>+3</td>
+					<td class="left">Path feature</td>
+				</tr>
+				<tr>
+					<td>15th</td>
+					<td>5</td>
+					<td>+3</td>
+					<td class="left">Persistent Rage</td>
+				</tr>
+				<tr>
+					<td>16th</td>
+					<td>5</td>
+					<td>+4</td>
+					<td class="left">Ability Score Improvement</td>
+				</tr>
+				<tr>
+					<td>17th</td>
+					<td>6</td>
+					<td>+4</td>
+					<td class="left">Brutal Critical (3 dice)</td>
+				</tr>
+				<tr>
+					<td>18th</td>
+					<td>6</td>
+					<td>+4</td>
+					<td class="left">Indomitable Might</td>
+				</tr>
+				<tr>
+					<td>19th</td>
+					<td>6</td>
+					<td>+4</td>
+					<td class="left">Ability Score Improvement</td>
+				</tr>
+				<tr>
+					<td>20th</td>
+					<td>Unlimited</td>
+					<td>+4</td>
+					<td class="left">Primal Champion</td>
+				</tr>
 			</table>
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_RAGE" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_UNARMORED_DEFENCE" />
@@ -152,11 +267,11 @@
 			<p class="indent">Once you have raged the number of times shown for your barbarian level in the Rages column of the Barbarian table, you must finish a long rest before you can rage again.</p>
 		</description>
 		<sheet action="Bonus Action">
-			<description usage="{{barbarian rage:count}}/Long Rest">Advantage on Strength checks and Strength Saves. 
-			A +{{barbarian rage:damage}} to damage rolls with strength melee weapon attacks. 
+			<description usage="{{barbarian rage:count}}/Long Rest">Advantage on Strength checks and Strength Saves.
+			A +{{barbarian rage:damage}} to damage rolls with strength melee weapon attacks.
 			You have resistance to bludgeoning, piercing, and slashing damage. </description>
-			<description usage="Unlimited" level="20">Advantage on Strength checks and Strength Saves. 
-			A +{{barbarian rage:damage}} to damage rolls with strength melee weapon attacks. 
+			<description usage="Unlimited" level="20">Advantage on Strength checks and Strength Saves.
+			A +{{barbarian rage:damage}} to damage rolls with strength melee weapon attacks.
 			You have resistance to bludgeoning, piercing, and slashing damage.</description>
 		</sheet>
 		<rules>
@@ -169,7 +284,7 @@
 			<stat name="barbarian rage:damage" value="2" level="1" />
 			<stat name="barbarian rage:damage" value="1" level="9" />
 			<stat name="barbarian rage:damage" value="1" level="16" />
-			<!-- 
+			<!--
 			<stat name="melee:damage, strength" value="barbarian rage:damage" condition="while raging" />
 			<stat name="advantage:Strength Check" condition="while raging" />
 			<stat name="advantage:Strength Saving Throws" condition="while raging" />
@@ -281,7 +396,7 @@
 			<p class="indent">Additionally, if you are surprised at the beginning of combat and aren’t incapacitated, you can act normally on your first turn, but only if you enter your rage before doing anything else on that turn.</p>
 		</description>
 		<sheet>
-			<description>You have advantage on initiative rolls. 
+			<description>You have advantage on initiative rolls.
 			If you are surprised at the beginning of combat and aren’t incapacitated, you can act normally on your first turn, but only if you enter your rage before doing anything else on that turn.</description>
 		</sheet>
 		<rules>

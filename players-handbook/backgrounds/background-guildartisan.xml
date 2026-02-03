@@ -5,7 +5,7 @@
 		<description>Guild Artisan Background</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
 		<update version="0.0.6">
-			<file name="background-guildartisan.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/backgrounds/background-guildartisan.xml" />
+			<file name="background-guildartisan.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/players-handbook/backgrounds/background-guildartisan.xml" />
 		</update>
 	</info>
 
@@ -13,37 +13,104 @@
 		<description>
 			<p>You are a member of an artisan’s guild, skilled in a particular field and closely associated with other artisans. You are a well-established part of the mercantile world, freed by talent and wealth from the constraints of a feudal social order. You learned your skills as an apprentice to a master artisan, under the sponsorship of your guild, until you became a master in your own right.</p>
 			<ul class="unstyled">
-				<li><strong>Skill Proficiencies:</strong>Insight, Persuasion</li>
-				<li><strong>Tool Proficiencies:</strong>One type of artisan’s tools</li>
-				<li><strong>Languages:</strong>One of your choice</li>
-				<li><strong>Equipment:</strong>A set of artisan’s tools (one of your choice), a letter of introduction from your guild, a set of traveler’s clothes, and a belt pouch containing 15 gp</li>
+				<li>
+					<strong>Skill Proficiencies:</strong>Insight, Persuasion</li>
+				<li>
+					<strong>Tool Proficiencies:</strong>One type of artisan’s tools</li>
+				<li>
+					<strong>Languages:</strong>One of your choice</li>
+				<li>
+					<strong>Equipment:</strong>A set of artisan’s tools (one of your choice), a letter of introduction from your guild, a set of traveler’s clothes, and a belt pouch containing 15 gp</li>
 			</ul>
 			<h5>GUILD BUSINESS</h5>
 			<p>Guilds are generally found in cities large enough to support several artisans practicing the same trade. However, your guild might instead be a loose network of artisans who each work in a different village within a larger realm. Work with your DM to determine the nature of your guild. You can select your guild business from the Guild Business table or roll randomly.</p>
 			<table>
 				<thead>
-					<tr><td>d20</td><td>Guild Business</td></tr>
+					<tr>
+						<td>d20</td>
+						<td>Guild Business</td>
+					</tr>
 				</thead>
-				<tr><td>1</td><td>Alchemists and apothecaries</td></tr>
-				<tr><td>2</td><td>Armorers, locksmiths, and finesmiths</td></tr>
-				<tr><td>3</td><td>Brewers, distillers, and vintners</td></tr>
-				<tr><td>4</td><td>Calligraphers, scribes, and scriveners</td></tr>
-				<tr><td>5</td><td>Carpenters, roofers, and plasterers</td></tr>
-				<tr><td>6</td><td>Cartographers, surveyors, and chart-makers</td></tr>
-				<tr><td>7</td><td>Cobblers and shoemakers</td></tr>
-				<tr><td>8</td><td>Cooks and bakers</td></tr>
-				<tr><td>9</td><td>Glassblowers and glaziers</td></tr>
-				<tr><td>10</td><td>Jewelers and gemcutters</td></tr>
-				<tr><td>11</td><td>Leatherworkers, skinners, and tanners</td></tr>
-				<tr><td>12</td><td>Masons and stonecutters</td></tr>
-				<tr><td>13</td><td>Painters, limners, and sign-makers</td></tr>
-				<tr><td>14</td><td>Potters and tile-makers</td></tr>
-				<tr><td>15</td><td>Shipwrights and sailmakers</td></tr>
-				<tr><td>16</td><td>Smiths and metal-forgers</td></tr>
-				<tr><td>17</td><td>Tinkers, pewterers, and casters</td></tr>
-				<tr><td>18</td><td>Wagon-makers and wheelwrights</td></tr>
-				<tr><td>19</td><td>Weavers and dyers</td></tr>
-				<tr><td>20</td><td>Woodcarvers, coopers, and bowyer</td></tr>
+				<tr>
+					<td>1</td>
+					<td>Alchemists and apothecaries</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Armorers, locksmiths, and finesmiths</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Brewers, distillers, and vintners</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Calligraphers, scribes, and scriveners</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>Carpenters, roofers, and plasterers</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>Cartographers, surveyors, and chart-makers</td>
+				</tr>
+				<tr>
+					<td>7</td>
+					<td>Cobblers and shoemakers</td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>Cooks and bakers</td>
+				</tr>
+				<tr>
+					<td>9</td>
+					<td>Glassblowers and glaziers</td>
+				</tr>
+				<tr>
+					<td>10</td>
+					<td>Jewelers and gemcutters</td>
+				</tr>
+				<tr>
+					<td>11</td>
+					<td>Leatherworkers, skinners, and tanners</td>
+				</tr>
+				<tr>
+					<td>12</td>
+					<td>Masons and stonecutters</td>
+				</tr>
+				<tr>
+					<td>13</td>
+					<td>Painters, limners, and sign-makers</td>
+				</tr>
+				<tr>
+					<td>14</td>
+					<td>Potters and tile-makers</td>
+				</tr>
+				<tr>
+					<td>15</td>
+					<td>Shipwrights and sailmakers</td>
+				</tr>
+				<tr>
+					<td>16</td>
+					<td>Smiths and metal-forgers</td>
+				</tr>
+				<tr>
+					<td>17</td>
+					<td>Tinkers, pewterers, and casters</td>
+				</tr>
+				<tr>
+					<td>18</td>
+					<td>Wagon-makers and wheelwrights</td>
+				</tr>
+				<tr>
+					<td>19</td>
+					<td>Weavers and dyers</td>
+				</tr>
+				<tr>
+					<td>20</td>
+					<td>Woodcarvers, coopers, and bowyer</td>
+				</tr>
 			</table>
 			<p>As a member of your guild, you know the skills needed to create finished items from raw materials (reflected in your proficiency with a certain kind of artisan’s tools), as well as the principles of trade and good business practices. The question now is whether you abandon your trade for adventure, or take on the extra effort to weave adventuring and trade together.</p>
 			<div element="ID_BACKGROUND_FEATURE_GUILD_MEMBERSHIP" />

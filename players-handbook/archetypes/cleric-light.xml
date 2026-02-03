@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.2">
-			<file name="cleric-light.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/archetypes/cleric-light.xml" />
+			<file name="cleric-light.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/players-handbook/archetypes/cleric-light.xml" />
 		</update>
 	</info>
 
@@ -13,13 +13,41 @@
 			<h5 class="caption">LIGHT DOMAIN SPELLS</h5>
 			<table>
 				<thead>
-					<tr><td>Cleric Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Cleric Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>1st</td><td><em>burning hands, faerie fire</em></td></tr>
-				<tr><td>3rd</td><td><em>flaming sphere, scorching ray</em></td></tr>
-				<tr><td>5th</td><td><em>daylight, fireball</em></td></tr>
-				<tr><td>7th</td><td><em>guardian of faith, wall of fire</em></td></tr>
-				<tr><td>9th</td><td><em>flame strike, scrying</em></td></tr>
+				<tr>
+					<td>1st</td>
+					<td>
+						<em>burning hands, faerie fire</em>
+					</td>
+				</tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>flaming sphere, scorching ray</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>daylight, fireball</em>
+					</td>
+				</tr>
+				<tr>
+					<td>7th</td>
+					<td>
+						<em>guardian of faith, wall of fire</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>
+						<em>flame strike, scrying</em>
+					</td>
+				</tr>
 			</table>
 			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_BONUS_CANTRIP" />
 			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_WARDING_FLARE" />
@@ -111,7 +139,7 @@
 			<description>You can activate an aura of sunlight that lasts for 1 minute or until you dismiss it using another action. You emit bright light in a 60-foot radius and dim light 30 feet beyond that. Your enemies in the bright light have disadvantage on saving throws against any spell that deals fire or radiant damage.</description>
 		</sheet>
 	</element>
-	
+
 	<!--Feature Replacement Grants-->
 	<element name="Bonus Cantrip Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_LIGHT_DOMAIN_BONUS_CANTRIP" />
 	<element name="Warding Flare Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_LIGHT_DOMAIN_WARDING_FLARE" />

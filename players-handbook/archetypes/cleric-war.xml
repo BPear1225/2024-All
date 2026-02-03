@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.2">
-			<file name="cleric-war.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/archetypes/cleric-war.xml" />
+			<file name="cleric-war.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/players-handbook/archetypes/cleric-war.xml" />
 		</update>
 	</info>
 
@@ -13,13 +13,41 @@
 			<h5 class="caption">WAR DOMAIN SPELLS</h5>
 			<table>
 				<thead>
-					<tr><td>Cleric Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Cleric Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>1st</td><td><em>divine favor, shield of faith</em></td></tr>
-				<tr><td>3rd</td><td><em>magic weapon, spiritual weapon</em></td></tr>
-				<tr><td>5th</td><td><em>crusader’s mantle, spirit guardians</em></td></tr>
-				<tr><td>7th</td><td><em>freedom of movement, stoneskin</em></td></tr>
-				<tr><td>9th</td><td><em>flame strike, hold monster</em></td></tr>
+				<tr>
+					<td>1st</td>
+					<td>
+						<em>divine favor, shield of faith</em>
+					</td>
+				</tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>magic weapon, spiritual weapon</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>crusader’s mantle, spirit guardians</em>
+					</td>
+				</tr>
+				<tr>
+					<td>7th</td>
+					<td>
+						<em>freedom of movement, stoneskin</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>
+						<em>flame strike, hold monster</em>
+					</td>
+				</tr>
 			</table>
 			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_BONUS_PROFICIENCIES" />
 			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_WAR_PRIEST" />
@@ -114,7 +142,7 @@
 			<description>You gain resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks.</description>
 		</sheet>
 	</element>
-	
+
 	<!--Feature Replacement Grants-->
 	<element name="Bonus Proficiencies Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_WAR_DOMAIN_BONUS_PROFICIENCIES" />
 	<element name="War Priest Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_WAR_DOMAIN_WAR_PRIEST" />

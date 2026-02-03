@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-			<file name="warlock-fiend.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/archetypes/warlock-fiend.xml" />
+			<file name="warlock-fiend.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/players-handbook/archetypes/warlock-fiend.xml" />
 		</update>
 	</info>
 
@@ -34,13 +34,41 @@
 			<h5 class="caption">FIEND EXPANDED SPELLS</h5>
 			<table>
 				<thead>
-					<tr><td>Spell Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Spell Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>1st</td><td><em>burning hands, command</em></td></tr>
-				<tr><td>2nd</td><td><em>blindness/deafness, scorching ray</em></td></tr>
-				<tr><td>3rd</td><td><em>fireball, stinking cloud</em></td></tr>
-				<tr><td>4th</td><td><em>fire shield, wall of fire</em></td></tr>
-				<tr><td>5th</td><td><em>flame strike, hallow</em></td></tr>
+				<tr>
+					<td>1st</td>
+					<td>
+						<em>burning hands, command</em>
+					</td>
+				</tr>
+				<tr>
+					<td>2nd</td>
+					<td>
+						<em>blindness/deafness, scorching ray</em>
+					</td>
+				</tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>fireball, stinking cloud</em>
+					</td>
+				</tr>
+				<tr>
+					<td>4th</td>
+					<td>
+						<em>fire shield, wall of fire</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>flame strike, hallow</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<sheet display="false">
@@ -103,7 +131,7 @@
 			At the end of your next turn, the target returns to the space it previously occupied, or the nearest unoccupied space. If the target is not a fiend, it takes 10d10 psychic damage.</description>
 		</sheet>
 	</element>
-	
+
 	<!--Feature Replacement Grants-->
 	<element name="Expanded Spell List Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_FIEND_EXPANDED_SPELL_LIST" />
 	<element name="Dark One’s Blessing Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_FIEND_DARK_ONES_BLESSING" />

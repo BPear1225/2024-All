@@ -3,10 +3,10 @@
 	<info>
 		<name>Weapons</name>
 		<update version="0.0.4">
-			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/items/items-weapons.xml" />
+			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/players-handbook/items/items-weapons.xml" />
 		</update>
 	</info>
-	
+
 	<!-- simple -->
 	<element name="Club" type="Weapon" source="Player’s Handbook" id="ID_WOTC_PHB_WEAPON_CLUB">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_GROUP_CLUBS</supports>

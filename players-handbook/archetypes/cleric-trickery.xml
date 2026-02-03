@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-			<file name="cleric-trickery.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/archetypes/cleric-trickery.xml" />
+			<file name="cleric-trickery.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/players-handbook/archetypes/cleric-trickery.xml" />
 		</update>
 	</info>
 
@@ -13,13 +13,41 @@
 			<h5 class="caption">TRICKERY DOMAIN SPELLS</h5>
 			<table>
 				<thead>
-					<tr><td>Cleric Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Cleric Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>1st</td><td><em>charm person, disguise self</em></td></tr>
-				<tr><td>3rd</td><td><em>mirror image, pass without trace</em></td></tr>
-				<tr><td>5th</td><td><em>blink, dispel magic</em></td></tr>
-				<tr><td>7th</td><td><em>dimension door, polymorph</em></td></tr>
-				<tr><td>9th</td><td><em>dominate person, modify memory</em></td></tr>
+				<tr>
+					<td>1st</td>
+					<td>
+						<em>charm person, disguise self</em>
+					</td>
+				</tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>mirror image, pass without trace</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>blink, dispel magic</em>
+					</td>
+				</tr>
+				<tr>
+					<td>7th</td>
+					<td>
+						<em>dimension door, polymorph</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>
+						<em>dominate person, modify memory</em>
+					</td>
+				</tr>
 			</table>
 			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_BLESSING_OF_THE_TRICKSTER" />
 			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_CD_INVOKE_DUPLICITY" />
@@ -103,7 +131,7 @@
 			As a bonus action on your turn, you can move any number of them up to 30 feet, to a maximum range of 120 feet.</description>
 		</sheet>
 	</element>
-	
+
 	<!--Feature Replacement Grants-->
 	<element name="Blessing of the Trickster Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_TRICKERY_DOMAIN_BLESSING_OF_THE_TRICKSTER" />
 	<element name="Channel Divinity: Invoke Duplicity Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_TRICKERY_DOMAIN_CD_INVOKE_DUPLICITY" />

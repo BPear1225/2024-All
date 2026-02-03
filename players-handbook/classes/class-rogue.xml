@@ -3,7 +3,7 @@
 	<info>
 		<name>Rogue</name>
 		<update version="0.3.3">
-			<file name="class-rogue.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/classes/class-rogue.xml" />
+			<file name="class-rogue.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/players-handbook/classes/class-rogue.xml" />
 		</update>
 	</info>
 
@@ -28,19 +28,27 @@
 			<p>As a rogue, you have the following class features.</p>
 			<h5>HIT POINTS</h5>
 			<ul class="unstyled">
-				<li><strong>Hit Dice:</strong> 1d8 per rogue level</li>
-				<li><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</li>
-				<li><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per rogue level after 1st</li>
+				<li>
+					<strong>Hit Dice:</strong> 1d8 per rogue level</li>
+				<li>
+					<strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</li>
+				<li>
+					<strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per rogue level after 1st</li>
 			</ul>
 			<h5>PROFICIENCIES</h5>
 			<ul class="unstyled mb">
-				<li><strong>Armor:</strong> Light armor</li>
-				<li><strong>Weapons:</strong> Simple weapons, hand crossbows, longswords, rapiers, shortswords</li>
-				<li><strong>Tools:</strong> Thieves’ tools</li>
+				<li>
+					<strong>Armor:</strong> Light armor</li>
+				<li>
+					<strong>Weapons:</strong> Simple weapons, hand crossbows, longswords, rapiers, shortswords</li>
+				<li>
+					<strong>Tools:</strong> Thieves’ tools</li>
 			</ul>
 			<ul class="unstyled">
-				<li><strong>Saving Throws:</strong> Dexterity, Intelligence</li>
-				<li><strong>Skills:</strong> Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Performance, Persuasion, Sleight of Hand, and Stealth</li>
+				<li>
+					<strong>Saving Throws:</strong> Dexterity, Intelligence</li>
+				<li>
+					<strong>Skills:</strong> Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Performance, Persuasion, Sleight of Hand, and Stealth</li>
 			</ul>
 			<h5>EQUIPMENT</h5>
 			<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
@@ -53,28 +61,112 @@
 			<h5 class="caption">THE ROGUE</h5>
 			<table class="class-features">
 				<thead>
-					<tr><td class="col-5">Level</td><td class="col-10">Sneak Attack</td><td class="col-60 left">Features</td></tr>
+					<tr>
+						<td class="col-5">Level</td>
+						<td class="col-10">Sneak Attack</td>
+						<td class="col-60 left">Features</td>
+					</tr>
 				</thead>
-				<tr><td> 1st</td><td>1d6</td><td class="left">Expertise, Sneak Attack, Thieves’ Cant</td></tr>
-				<tr><td> 2nd</td><td>1d6</td><td class="left">Cunning Action</td></tr>
-				<tr><td> 3rd</td><td>2d6</td><td class="left">Roguish Archetype</td></tr>
-				<tr><td> 4th</td><td>2d6</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td> 5th</td><td>3d6</td><td class="left">Uncanny Dodge</td></tr>
-				<tr><td> 6th</td><td>3d6</td><td class="left">Expertise</td></tr>
-				<tr><td> 7th</td><td>4d6</td><td class="left">Evasion</td></tr>
-				<tr><td> 8th</td><td>4d6</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td> 9th</td><td>Sd6</td><td class="left">Roguish Archetype feature</td></tr>
-				<tr><td>10th</td><td>Sd6</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>11th</td><td>6d6</td><td class="left">Reliable Talent</td></tr>
-				<tr><td>12th</td><td>6d6</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>13th</td><td>7d6</td><td class="left">Roguish Archetype feature</td></tr>
-				<tr><td>14th</td><td>7d6</td><td class="left">Blindsense</td></tr>
-				<tr><td>15th</td><td>8d6</td><td class="left">Slippery Mind</td></tr>
-				<tr><td>16th</td><td>8d6</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>17th</td><td>9d6</td><td class="left">Roguish Archetype feature</td></tr>
-				<tr><td>18th</td><td>9d6</td><td class="left">Elusive</td></tr>
-				<tr><td>19th</td><td>10d6</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>20th</td><td>10d6</td><td class="left">Stroke of Luck</td></tr>
+				<tr>
+					<td> 1st</td>
+					<td>1d6</td>
+					<td class="left">Expertise, Sneak Attack, Thieves’ Cant</td>
+				</tr>
+				<tr>
+					<td> 2nd</td>
+					<td>1d6</td>
+					<td class="left">Cunning Action</td>
+				</tr>
+				<tr>
+					<td> 3rd</td>
+					<td>2d6</td>
+					<td class="left">Roguish Archetype</td>
+				</tr>
+				<tr>
+					<td> 4th</td>
+					<td>2d6</td>
+					<td class="left">Ability Score Improvement</td>
+				</tr>
+				<tr>
+					<td> 5th</td>
+					<td>3d6</td>
+					<td class="left">Uncanny Dodge</td>
+				</tr>
+				<tr>
+					<td> 6th</td>
+					<td>3d6</td>
+					<td class="left">Expertise</td>
+				</tr>
+				<tr>
+					<td> 7th</td>
+					<td>4d6</td>
+					<td class="left">Evasion</td>
+				</tr>
+				<tr>
+					<td> 8th</td>
+					<td>4d6</td>
+					<td class="left">Ability Score Improvement</td>
+				</tr>
+				<tr>
+					<td> 9th</td>
+					<td>Sd6</td>
+					<td class="left">Roguish Archetype feature</td>
+				</tr>
+				<tr>
+					<td>10th</td>
+					<td>Sd6</td>
+					<td class="left">Ability Score Improvement</td>
+				</tr>
+				<tr>
+					<td>11th</td>
+					<td>6d6</td>
+					<td class="left">Reliable Talent</td>
+				</tr>
+				<tr>
+					<td>12th</td>
+					<td>6d6</td>
+					<td class="left">Ability Score Improvement</td>
+				</tr>
+				<tr>
+					<td>13th</td>
+					<td>7d6</td>
+					<td class="left">Roguish Archetype feature</td>
+				</tr>
+				<tr>
+					<td>14th</td>
+					<td>7d6</td>
+					<td class="left">Blindsense</td>
+				</tr>
+				<tr>
+					<td>15th</td>
+					<td>8d6</td>
+					<td class="left">Slippery Mind</td>
+				</tr>
+				<tr>
+					<td>16th</td>
+					<td>8d6</td>
+					<td class="left">Ability Score Improvement</td>
+				</tr>
+				<tr>
+					<td>17th</td>
+					<td>9d6</td>
+					<td class="left">Roguish Archetype feature</td>
+				</tr>
+				<tr>
+					<td>18th</td>
+					<td>9d6</td>
+					<td class="left">Elusive</td>
+				</tr>
+				<tr>
+					<td>19th</td>
+					<td>10d6</td>
+					<td class="left">Ability Score Improvement</td>
+				</tr>
+				<tr>
+					<td>20th</td>
+					<td>10d6</td>
+					<td class="left">Stroke of Luck</td>
+				</tr>
 			</table>
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_EXPERTISE"/>
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_SNEAKATTACK"/>
@@ -570,7 +662,7 @@
 			</div>
 		</description>
 		<sheet>
-        	<description>Your proficiency bonus is doubled for any Thieves’ Tools check you make.</description>
+			<description>Your proficiency bonus is doubled for any Thieves’ Tools check you make.</description>
 		</sheet>
 		<rules>
 			<stat name="thieves tools:proficiency" value="proficiency" bonus="double" />

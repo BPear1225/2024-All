@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-			<file name="warlock-archfey.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/archetypes/warlock-archfey.xml" />
+			<file name="warlock-archfey.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/players-handbook/archetypes/warlock-archfey.xml" />
 		</update>
 	</info>
 
@@ -34,13 +34,41 @@
 			<h5 class="caption">ARCHFEY EXPANDED SPELLS</h5>
 			<table>
 				<thead>
-					<tr><td>Spell Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Spell Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>1st</td><td><em>faerie fire, sleep</em></td></tr>
-				<tr><td>2nd</td><td><em>calm emotions, phantasmal force</em></td></tr>
-				<tr><td>3rd</td><td><em>blink, plant growth</em></td></tr>
-				<tr><td>4th</td><td><em>dominate beast, greater invisibility</em></td></tr>
-				<tr><td>5th</td><td><em>dominate person, seeming</em></td></tr>
+				<tr>
+					<td>1st</td>
+					<td>
+						<em>faerie fire, sleep</em>
+					</td>
+				</tr>
+				<tr>
+					<td>2nd</td>
+					<td>
+						<em>calm emotions, phantasmal force</em>
+					</td>
+				</tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>blink, plant growth</em>
+					</td>
+				</tr>
+				<tr>
+					<td>4th</td>
+					<td>
+						<em>dominate beast, greater invisibility</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>dominate person, seeming</em>
+					</td>
+				</tr>
 			</table>
 		</description>
 		<sheet display="false">
@@ -99,7 +127,7 @@
 			<description>Choose a creature that you can see within 60 feet of you. It must make a Wisdom saving throw. On a failed save, it is charmed or frightened by you for 1 minute or until your concentration is broken. This effect ends early if the creature takes any damage.</description>
 		</sheet>
 	</element>
-	
+
 	<!--Feature Replacement Grants-->
 	<element name="Expanded Spell List Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_EXPANDED_SPELL_LIST" />
 	<element name="Fey Presence Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WARLOCK_ARCHFEY_FEY_PRESENCE" />

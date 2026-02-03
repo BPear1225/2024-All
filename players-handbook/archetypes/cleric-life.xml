@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-			<file name="cleric-life.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/archetypes/cleric-life.xml" />
+			<file name="cleric-life.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/players-handbook/archetypes/cleric-life.xml" />
 		</update>
 	</info>
 
@@ -13,13 +13,41 @@
 			<h5 class="caption">LIFE DOMAIN SPELLS</h5>
 			<table>
 				<thead>
-					<tr><td>Cleric Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Cleric Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>1st</td><td><em>bless, cure wounds</em></td></tr>
-				<tr><td>3rd</td><td><em>lesser restoration, spiritual weapon</em></td></tr>
-				<tr><td>5th</td><td><em>beacon of hope, revivify</em></td></tr>
-				<tr><td>7th</td><td><em>death ward, guardian of faith</em></td></tr>
-				<tr><td>9th</td><td><em>mass cure wounds, raise dead</em></td></tr>
+				<tr>
+					<td>1st</td>
+					<td>
+						<em>bless, cure wounds</em>
+					</td>
+				</tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>lesser restoration, spiritual weapon</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>beacon of hope, revivify</em>
+					</td>
+				</tr>
+				<tr>
+					<td>7th</td>
+					<td>
+						<em>death ward, guardian of faith</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>
+						<em>mass cure wounds, raise dead</em>
+					</td>
+				</tr>
 			</table>
 			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIFE_BONUSPROFICIENCY" />
 			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIFE_DISCIPLEOFLIFE" />
@@ -114,7 +142,7 @@
 			<description>When you would normally roll one or more dice to restore hp with a spell, you instead use the highest number possible for each die. For example, instead of restoring 2d6 hp to a creature, you restore 12.</description>
 		</sheet>
 	</element>
-	
+
 	<!--Feature Replacement Grants-->
 	<element name="Bonus Proficiency Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_LIFE_DOMAIN_BONUS_PROFICIENCY" />
 	<element name="Disciple of Life Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_LIFE_DOMAIN_DISCIPLE_OF_LIFE" />

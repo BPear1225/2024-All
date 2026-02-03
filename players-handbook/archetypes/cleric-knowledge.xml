@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-			<file name="cleric-knowledge.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/archetypes/cleric-knowledge.xml" />
+			<file name="cleric-knowledge.xml" url="https://raw.githubusercontent.com/BPear1225/2024-All/refs/heads/main/players-handbook/archetypes/cleric-knowledge.xml" />
 		</update>
 	</info>
 
@@ -13,13 +13,41 @@
 			<h5 class="caption">KNOWLEDGE DOMAIN SPELLS</h5>
 			<table>
 				<thead>
-					<tr><td>Cleric Level</td><td>Spells</td></tr>
+					<tr>
+						<td>Cleric Level</td>
+						<td>Spells</td>
+					</tr>
 				</thead>
-				<tr><td>1st</td><td><em>command, identify</em></td></tr>
-				<tr><td>3rd</td><td><em>augury, suggestion</em></td></tr>
-				<tr><td>5th</td><td><em>nondetection, speak with dead</em></td></tr>
-				<tr><td>7th</td><td><em>arcane eye, confusion</em></td></tr>
-				<tr><td>9th</td><td><em>legend lore, scrying</em></td></tr>
+				<tr>
+					<td>1st</td>
+					<td>
+						<em>command, identify</em>
+					</td>
+				</tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>augury, suggestion</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>nondetection, speak with dead</em>
+					</td>
+				</tr>
+				<tr>
+					<td>7th</td>
+					<td>
+						<em>arcane eye, confusion</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>
+						<em>legend lore, scrying</em>
+					</td>
+				</tr>
 			</table>
 			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_BLESSINGS_OF_KNOWLEDGE" />
 			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_CD_KNOWLEDGE_OF_THE_AGES" />
@@ -152,8 +180,14 @@
 		<description>
 			<p>Starting at 17th level, you can call up visions of the past that relate to an object you hold or your immediate surroundings. You spend at least 1 minute in meditation and prayer, then receive dreamlike, shadowy glimpses of recent events. You can meditate in this way for a number of minutes equal to your Wisdom score and must maintain concentration during that time, as if you were casting a spell.</p>
 			<p class="indent">Once you use this feature, you can’t use it again until you finish a short or long rest.</p>
-			<p class="indent"><strong><em>Object Reading.</em></strong> Holding an object as you meditate, you can see visions of the object’s previous owner. After meditating for 1 minute, you learn how the owner acquired and lost the object, as well as the most recent significant event involving the object and that owner. If the object was owned by another creature in the recent past (within a number of days equal to your Wisdom score), you can spend 1 additional minute for each owner to learn the same information about that creature.</p>
-			<p class="indent"><strong><em>Area Reading.</em></strong> As you meditate, you see visions of recent events in your immediate vicinity (a room, street, tunnel, clearing, or the like, up to a 50-foot cube), going back a number of days equal to your Wisdom score. For each minute you meditate, you learn about one significant event, beginning with the most recent. Significant events typically involve powerful emotions, such as battles and betrayals, marriages and murders, births and funerals. However, they might also include more mundane events that are nevertheless important in your current situation.</p> 
+			<p class="indent">
+				<strong>
+					<em>Object Reading.</em>
+				</strong> Holding an object as you meditate, you can see visions of the object’s previous owner. After meditating for 1 minute, you learn how the owner acquired and lost the object, as well as the most recent significant event involving the object and that owner. If the object was owned by another creature in the recent past (within a number of days equal to your Wisdom score), you can spend 1 additional minute for each owner to learn the same information about that creature.</p>
+			<p class="indent">
+				<strong>
+					<em>Area Reading.</em>
+				</strong> As you meditate, you see visions of recent events in your immediate vicinity (a room, street, tunnel, clearing, or the like, up to a 50-foot cube), going back a number of days equal to your Wisdom score. For each minute you meditate, you learn about one significant event, beginning with the most recent. Significant events typically involve powerful emotions, such as battles and betrayals, marriages and murders, births and funerals. However, they might also include more mundane events that are nevertheless important in your current situation.</p>
 		</description>
 		<sheet usage="1/Short Rest">
 			<description>You spend at least 1 minute in meditation and prayer, then receive dreamlike, shadowy glimpses of recent events. You can meditate in this way for {{wisdom:score}} minutes and must maintain concentration during that time, as if you were casting a spell.
@@ -161,7 +195,7 @@
 			Area Reading. As you meditate, you see visions of recent events in your immediate vicinity, going back {{wisdom:score}} days. For each minute you meditate, you learn about one significant event, beginning with the most recent. Significant events typically involve powerful emotions, such as battles and betrayals, marriages and murders, births and funerals. However, they might also include more mundane events that are nevertheless important in your current situation.</description>
 		</sheet>
 	</element>
-	
+
 	<!--Feature Replacement Grants-->
 	<element name="Blessings of Knowledge Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_KNOWLEDGE_DOMAIN_BLESSINGS_OF_KNOWLEDGE" />
 	<element name="Channel Divinity: Knowledge of the Ages Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_KNOWLEDGE_DOMAIN_CD_KNOWLEDGE_OF_THE_AGES" />
